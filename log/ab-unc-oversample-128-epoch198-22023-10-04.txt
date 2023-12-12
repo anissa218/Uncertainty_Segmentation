@@ -1,0 +1,429 @@
+2023-10-04 06:12:40 ===> re-training!!!
+2023-10-04 06:12:40 ===> ===========>Test begining!===========
+2023-10-04 06:12:40 ===> --------------------------------------This is all argsurations----------------------------------
+2023-10-04 06:12:40 ===> user=anissa
+2023-10-04 06:12:40 ===> experiment=ab-unc-oversample-128-epoch198-2
+2023-10-04 06:12:40 ===> date=2023-10-04
+2023-10-04 06:12:40 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-10-04 06:12:40 ===> mode=train
+2023-10-04 06:12:40 ===> dataset=autopet
+2023-10-04 06:12:40 ===> crop_H=128
+2023-10-04 06:12:40 ===> crop_W=128
+2023-10-04 06:12:40 ===> crop_D=128
+2023-10-04 06:12:40 ===> num_classes=2
+2023-10-04 06:12:40 ===> input_modality=petct
+2023-10-04 06:12:40 ===> folder=folder0
+2023-10-04 06:12:40 ===> input_C=2
+2023-10-04 06:12:40 ===> input_H=128
+2023-10-04 06:12:40 ===> input_W=128
+2023-10-04 06:12:40 ===> input_D=128
+2023-10-04 06:12:40 ===> output_D=192
+2023-10-04 06:12:40 ===> lr=0.0002
+2023-10-04 06:12:40 ===> weight_decay=1e-05
+2023-10-04 06:12:40 ===> submission=./results
+2023-10-04 06:12:40 ===> seed=1000
+2023-10-04 06:12:40 ===> no_cuda=False
+2023-10-04 06:12:40 ===> batch_size=2
+2023-10-04 06:12:40 ===> start_epoch=0
+2023-10-04 06:12:40 ===> end_epochs=10
+2023-10-04 06:12:40 ===> save_freq=5
+2023-10-04 06:12:40 ===> resume=
+2023-10-04 06:12:40 ===> load=True
+2023-10-04 06:12:40 ===> model_name=U
+2023-10-04 06:12:40 ===> en_time=10
+2023-10-04 06:12:40 ===> OOD_Condition=normal
+2023-10-04 06:12:40 ===> OOD_Level=1
+2023-10-04 06:12:40 ===> use_TTA=False
+2023-10-04 06:12:40 ===> snapshot=True
+2023-10-04 06:12:40 ===> save_format=nii
+2023-10-04 06:12:40 ===> test_date=2023-01-01
+2023-10-04 06:12:40 ===> test_epoch=199
+2023-10-04 06:12:40 ===> n_skip=3
+2023-10-04 06:12:40 ===> vit_name=R50-ViT-B_16
+2023-10-04 06:12:40 ===> vit_patches_size=16
+2023-10-04 06:12:40 ===> train_file=pos_train_imgs.txt
+2023-10-04 06:12:40 ===> val_file=pos_val_imgs.txt
+2023-10-04 06:12:40 ===> test_file=test_imgs.txt
+2023-10-04 06:12:40 ===> lambda_epochs=50
+2023-10-04 06:12:40 ===> Uncertainty_Loss=False
+2023-10-04 06:12:40 ===> save_dir=./results
+2023-10-04 06:12:40 ===> out_size=(128, 128, 128)
+2023-10-04 06:12:40 ===> ----------------------------------------This is a halving line----------------------------------
+2023-10-04 06:12:40 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-10-04 06:12:48 ===> Single sample test time consumption 7.11 seconds!
+2023-10-04 06:12:53 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:12:56 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:02 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:04 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:10 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:16 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:18 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:24 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:30 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:36 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:42 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:13:44 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:50 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:13:56 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:13:59 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:01 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:04 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:09 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:12 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:18 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:24 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:26 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:29 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:32 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:34 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:37 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:39 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:46 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:14:49 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:14:51 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:54 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:14:59 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:02 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:05 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:07 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:14 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:16 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:19 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:25 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:30 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:15:36 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:38 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:41 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:47 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:53 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:15:55 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:01 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:07 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:13 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:16:19 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:16:25 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:28 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:34 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:36 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:42 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:47 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:50 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:52 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:55 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:16:57 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:03 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:17:06 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:17:11 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:17 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:20 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:22 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:28 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:30 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:36 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:42 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:45 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:51 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:17:54 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:56 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:17:59 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:02 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:08 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:10 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:16 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:22 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:28 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:34 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:18:39 ===> Single sample test time consumption 0.11 seconds!
+2023-10-04 06:18:42 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:48 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:54 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:18:57 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:19:03 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:19:06 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 06:19:08 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 16:20:01 ===> re-training!!!
+2023-10-04 16:20:01 ===> ===========>Test begining!===========
+2023-10-04 16:20:01 ===> --------------------------------------This is all argsurations----------------------------------
+2023-10-04 16:20:01 ===> user=anissa
+2023-10-04 16:20:01 ===> experiment=ab-unc-oversample-128-epoch198-2
+2023-10-04 16:20:01 ===> date=2023-10-04
+2023-10-04 16:20:01 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-10-04 16:20:01 ===> mode=train
+2023-10-04 16:20:01 ===> dataset=autopet
+2023-10-04 16:20:01 ===> crop_H=128
+2023-10-04 16:20:01 ===> crop_W=128
+2023-10-04 16:20:01 ===> crop_D=128
+2023-10-04 16:20:01 ===> num_classes=2
+2023-10-04 16:20:01 ===> input_modality=petct
+2023-10-04 16:20:01 ===> folder=folder0
+2023-10-04 16:20:01 ===> input_C=2
+2023-10-04 16:20:01 ===> input_H=128
+2023-10-04 16:20:01 ===> input_W=128
+2023-10-04 16:20:01 ===> input_D=128
+2023-10-04 16:20:01 ===> output_D=192
+2023-10-04 16:20:01 ===> lr=0.0002
+2023-10-04 16:20:01 ===> weight_decay=1e-05
+2023-10-04 16:20:01 ===> submission=./results
+2023-10-04 16:20:01 ===> seed=1000
+2023-10-04 16:20:01 ===> no_cuda=False
+2023-10-04 16:20:01 ===> batch_size=2
+2023-10-04 16:20:01 ===> start_epoch=0
+2023-10-04 16:20:01 ===> end_epochs=10
+2023-10-04 16:20:01 ===> save_freq=5
+2023-10-04 16:20:01 ===> resume=
+2023-10-04 16:20:01 ===> load=True
+2023-10-04 16:20:01 ===> model_name=U
+2023-10-04 16:20:01 ===> en_time=10
+2023-10-04 16:20:01 ===> OOD_Condition=normal
+2023-10-04 16:20:01 ===> OOD_Level=1
+2023-10-04 16:20:01 ===> use_TTA=False
+2023-10-04 16:20:01 ===> snapshot=True
+2023-10-04 16:20:01 ===> save_format=nii
+2023-10-04 16:20:01 ===> test_date=2023-01-01
+2023-10-04 16:20:01 ===> test_epoch=199
+2023-10-04 16:20:01 ===> n_skip=3
+2023-10-04 16:20:01 ===> vit_name=R50-ViT-B_16
+2023-10-04 16:20:01 ===> vit_patches_size=16
+2023-10-04 16:20:01 ===> train_file=pos_train_imgs.txt
+2023-10-04 16:20:01 ===> val_file=pos_val_imgs.txt
+2023-10-04 16:20:01 ===> test_file=test_imgs.txt
+2023-10-04 16:20:01 ===> lambda_epochs=50
+2023-10-04 16:20:01 ===> Uncertainty_Loss=False
+2023-10-04 16:20:01 ===> save_dir=./results
+2023-10-04 16:20:01 ===> out_size=(128, 128, 128)
+2023-10-04 16:20:01 ===> ----------------------------------------This is a halving line----------------------------------
+2023-10-04 16:20:01 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-10-04 16:20:13 ===> Single sample test time consumption 11.15 seconds!
+2023-10-04 16:20:16 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:19 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:24 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:27 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:30 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:35 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:38 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:44 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:49 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:54 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:20:59 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:01 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:07 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:12 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:15 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:18 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:21 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:26 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:29 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:34 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:40 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:43 ===> Single sample test time consumption 0.23 seconds!
+2023-10-04 16:21:46 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:49 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:52 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:55 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:21:58 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:04 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:07 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:10 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:13 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:18 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:21 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:24 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:27 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:32 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:35 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:39 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:45 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:48 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:53 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:56 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:22:59 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:05 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:10 ===> Single sample test time consumption 0.23 seconds!
+2023-10-04 16:23:13 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:18 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:24 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:29 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:35 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:40 ===> Single sample test time consumption 0.27 seconds!
+2023-10-04 16:23:43 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:49 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:52 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:23:57 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:02 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:05 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:08 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:11 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:14 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:19 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:22 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:27 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:33 ===> Single sample test time consumption 0.25 seconds!
+2023-10-04 16:24:36 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:39 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:44 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:47 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:52 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:24:57 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:00 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:06 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:09 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:12 ===> Single sample test time consumption 0.21 seconds!
+2023-10-04 16:25:15 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:18 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:23 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:26 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:31 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:37 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:43 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:48 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:53 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:25:56 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:26:02 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:26:07 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:26:10 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:26:16 ===> Single sample test time consumption 0.16 seconds!
+2023-10-04 16:26:19 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 16:26:22 ===> Single sample test time consumption 0.26 seconds!
+2023-10-04 17:21:13 ===> re-training!!!
+2023-10-04 17:21:13 ===> ===========>Test begining!===========
+2023-10-04 17:21:13 ===> --------------------------------------This is all argsurations----------------------------------
+2023-10-04 17:21:13 ===> user=anissa
+2023-10-04 17:21:13 ===> experiment=ab-unc-oversample-128-epoch198-2
+2023-10-04 17:21:13 ===> date=2023-10-04
+2023-10-04 17:21:13 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-10-04 17:21:13 ===> mode=train
+2023-10-04 17:21:13 ===> dataset=autopet
+2023-10-04 17:21:13 ===> crop_H=128
+2023-10-04 17:21:13 ===> crop_W=128
+2023-10-04 17:21:13 ===> crop_D=128
+2023-10-04 17:21:13 ===> num_classes=2
+2023-10-04 17:21:13 ===> input_modality=petct
+2023-10-04 17:21:13 ===> folder=folder0
+2023-10-04 17:21:13 ===> input_C=2
+2023-10-04 17:21:13 ===> input_H=128
+2023-10-04 17:21:13 ===> input_W=128
+2023-10-04 17:21:13 ===> input_D=128
+2023-10-04 17:21:13 ===> output_D=192
+2023-10-04 17:21:13 ===> lr=0.0002
+2023-10-04 17:21:13 ===> weight_decay=1e-05
+2023-10-04 17:21:13 ===> submission=./results
+2023-10-04 17:21:13 ===> seed=1000
+2023-10-04 17:21:13 ===> no_cuda=False
+2023-10-04 17:21:13 ===> batch_size=2
+2023-10-04 17:21:13 ===> start_epoch=0
+2023-10-04 17:21:13 ===> end_epochs=10
+2023-10-04 17:21:13 ===> save_freq=5
+2023-10-04 17:21:13 ===> resume=
+2023-10-04 17:21:13 ===> load=True
+2023-10-04 17:21:13 ===> model_name=U
+2023-10-04 17:21:13 ===> en_time=10
+2023-10-04 17:21:13 ===> OOD_Condition=normal
+2023-10-04 17:21:13 ===> OOD_Level=1
+2023-10-04 17:21:13 ===> use_TTA=False
+2023-10-04 17:21:13 ===> snapshot=True
+2023-10-04 17:21:13 ===> save_format=nii
+2023-10-04 17:21:13 ===> test_date=2023-01-01
+2023-10-04 17:21:13 ===> test_epoch=199
+2023-10-04 17:21:13 ===> n_skip=3
+2023-10-04 17:21:13 ===> vit_name=R50-ViT-B_16
+2023-10-04 17:21:13 ===> vit_patches_size=16
+2023-10-04 17:21:13 ===> train_file=pos_train_imgs.txt
+2023-10-04 17:21:13 ===> val_file=pos_val_imgs.txt
+2023-10-04 17:21:13 ===> test_file=test_imgs.txt
+2023-10-04 17:21:13 ===> lambda_epochs=50
+2023-10-04 17:21:13 ===> Uncertainty_Loss=False
+2023-10-04 17:21:13 ===> save_dir=./results
+2023-10-04 17:21:13 ===> out_size=(128, 128, 128)
+2023-10-04 17:21:13 ===> ----------------------------------------This is a halving line----------------------------------
+2023-10-04 17:21:13 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-10-04 17:21:20 ===> Single sample test time consumption 6.09 seconds!
+2023-10-04 17:21:22 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:25 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:30 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:33 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:35 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:40 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:42 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:47 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:52 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:21:56 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:01 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:03 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:08 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:14 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:16 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:18 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:21 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:26 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:28 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:33 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:38 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:41 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:43 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:46 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:48 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:51 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:22:53 ===> Single sample test time consumption 0.09 seconds!
+2023-10-04 17:22:59 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:01 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:04 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:06 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:11 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:14 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:16 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:19 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:24 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:26 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:29 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:34 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:36 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:41 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:44 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:46 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:51 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:56 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:23:58 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:03 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:09 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:14 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:19 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:24 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:26 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:31 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:34 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:39 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:43 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:46 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:48 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:51 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:53 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:24:58 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:01 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:05 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:11 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:13 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:16 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:20 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:23 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:28 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:32 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:35 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:40 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:43 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:45 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:48 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:50 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:55 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:25:57 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:02 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:08 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:13 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:18 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:22 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:25 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:30 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:35 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:37 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:43 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:45 ===> Single sample test time consumption 0.10 seconds!
+2023-10-04 17:26:48 ===> Single sample test time consumption 0.10 seconds!

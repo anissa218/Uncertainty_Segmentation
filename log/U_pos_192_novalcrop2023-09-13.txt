@@ -1,0 +1,79 @@
+2023-09-13 11:48:32 ===> re-training!!!
+2023-09-13 13:43:51 ===> re-training!!!
+2023-09-13 13:43:51 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-13 13:43:51 ===> user=anissa
+2023-09-13 13:43:51 ===> experiment=U_pos_192_novalcrop
+2023-09-13 13:43:51 ===> date=2023-09-13
+2023-09-13 13:43:51 ===> description=Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-13 13:43:51 ===> start_epoch=1
+2023-09-13 13:43:51 ===> end_epochs=200
+2023-09-13 13:43:51 ===> submission=./results
+2023-09-13 13:43:51 ===> lambda_epochs=50
+2023-09-13 13:43:51 ===> save_freq=5
+2023-09-13 13:43:51 ===> lr=0.0002
+2023-09-13 13:43:51 ===> savepath=./results/plot/output
+2023-09-13 13:43:51 ===> save_dir=./results
+2023-09-13 13:43:51 ===> mode=train
+2023-09-13 13:43:51 ===> dataset=autopet2
+2023-09-13 13:43:51 ===> folder=folder0
+2023-09-13 13:43:51 ===> input_H=300
+2023-09-13 13:43:51 ===> input_W=400
+2023-09-13 13:43:51 ===> input_D=400
+2023-09-13 13:43:51 ===> crop_H=192
+2023-09-13 13:43:51 ===> crop_W=192
+2023-09-13 13:43:51 ===> crop_D=192
+2023-09-13 13:43:51 ===> output_D=155
+2023-09-13 13:43:51 ===> batch_size=2
+2023-09-13 13:43:51 ===> OOD_Condition=normal
+2023-09-13 13:43:51 ===> OOD_Level=0
+2023-09-13 13:43:51 ===> snapshot=True
+2023-09-13 13:43:51 ===> Uncertainty_Loss=False
+2023-09-13 13:43:51 ===> input_modality=petct
+2023-09-13 13:43:51 ===> model_name=U
+2023-09-13 13:43:51 ===> test_epoch=199
+2023-09-13 13:43:51 ===> train_file=pos_train_imgs.txt
+2023-09-13 13:43:51 ===> val_file=pos_val_imgs.txt
+2023-09-13 13:43:51 ===> test_file=pos_test_imgs.txt
+2023-09-13 13:43:51 ===> num_classes=2
+2023-09-13 13:43:51 ===> out_size=(192, 192, 192)
+2023-09-13 13:43:51 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-13 13:43:51 ===> Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-13 21:09:50 ===> re-training!!!
+2023-09-13 21:09:50 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-13 21:09:50 ===> user=anissa
+2023-09-13 21:09:50 ===> experiment=U_pos_192_novalcrop
+2023-09-13 21:09:50 ===> date=2023-09-13
+2023-09-13 21:09:50 ===> description=Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-13 21:09:50 ===> start_epoch=1
+2023-09-13 21:09:50 ===> end_epochs=200
+2023-09-13 21:09:50 ===> submission=./results
+2023-09-13 21:09:50 ===> lambda_epochs=50
+2023-09-13 21:09:50 ===> save_freq=5
+2023-09-13 21:09:50 ===> lr=0.0002
+2023-09-13 21:09:50 ===> savepath=./results/plot/output
+2023-09-13 21:09:50 ===> save_dir=./results
+2023-09-13 21:09:50 ===> mode=train
+2023-09-13 21:09:50 ===> dataset=autopet2
+2023-09-13 21:09:50 ===> folder=folder0
+2023-09-13 21:09:50 ===> input_H=300
+2023-09-13 21:09:50 ===> input_W=400
+2023-09-13 21:09:50 ===> input_D=400
+2023-09-13 21:09:50 ===> crop_H=192
+2023-09-13 21:09:50 ===> crop_W=192
+2023-09-13 21:09:50 ===> crop_D=192
+2023-09-13 21:09:50 ===> output_D=155
+2023-09-13 21:09:50 ===> batch_size=2
+2023-09-13 21:09:50 ===> OOD_Condition=normal
+2023-09-13 21:09:50 ===> OOD_Level=0
+2023-09-13 21:09:50 ===> snapshot=True
+2023-09-13 21:09:50 ===> Uncertainty_Loss=False
+2023-09-13 21:09:50 ===> input_modality=petct
+2023-09-13 21:09:50 ===> model_name=U
+2023-09-13 21:09:50 ===> test_epoch=199
+2023-09-13 21:09:50 ===> train_file=pos_train_imgs.txt
+2023-09-13 21:09:50 ===> val_file=pos_val_imgs.txt
+2023-09-13 21:09:50 ===> test_file=pos_test_imgs.txt
+2023-09-13 21:09:50 ===> num_classes=2
+2023-09-13 21:09:50 ===> out_size=(192, 192, 192)
+2023-09-13 21:09:50 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-13 21:09:50 ===> Trustworthy medical image segmentation by coco,training on train.txt!

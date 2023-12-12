@@ -1,0 +1,24 @@
+2023-09-14 12:33:54 ===> re-training!!!
+2023-09-14 12:39:39 ===> re-training!!!
+2023-09-14 12:39:39 ===> re-training!!!
+2023-09-14 12:51:10 ===> re-training!!!
+2023-09-14 12:51:10 ===> re-training!!!
+2023-09-14 12:51:10 ===> re-training!!!
+2023-09-14 12:54:34 ===> No such comm target registered: jupyter.widget.control
+2023-09-14 12:54:34 ===> No such comm target registered: jupyter.widget.control
+2023-09-14 12:54:34 ===> No such comm target registered: jupyter.widget.control
+2023-09-14 12:54:34 ===> No such comm: 5925e0f5-3665-44ae-a69d-970c3fd236b7
+2023-09-14 12:54:34 ===> No such comm: 5925e0f5-3665-44ae-a69d-970c3fd236b7
+2023-09-14 12:54:34 ===> No such comm: 5925e0f5-3665-44ae-a69d-970c3fd236b7
+2023-09-14 12:54:34 ===> Current comms: []
+2023-09-14 12:54:34 ===> Current comms: []
+2023-09-14 12:54:34 ===> Current comms: []
+2023-09-14 12:56:48 ===> No such comm target registered: jupyter.widget.control
+2023-09-14 12:56:48 ===> No such comm target registered: jupyter.widget.control
+2023-09-14 12:56:48 ===> No such comm target registered: jupyter.widget.control
+2023-09-14 12:56:48 ===> No such comm: f47bde86-0bdf-461d-bb18-097cc424e306
+2023-09-14 12:56:48 ===> No such comm: f47bde86-0bdf-461d-bb18-097cc424e306
+2023-09-14 12:56:48 ===> No such comm: f47bde86-0bdf-461d-bb18-097cc424e306
+2023-09-14 12:56:48 ===> Current comms: []
+2023-09-14 12:56:48 ===> Current comms: []
+2023-09-14 12:56:48 ===> Current comms: []

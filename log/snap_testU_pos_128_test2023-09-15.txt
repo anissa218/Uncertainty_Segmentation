@@ -1,0 +1,276 @@
+2023-09-15 00:55:31 ===> re-training!!!
+2023-09-15 00:55:31 ===> Samples for train = 358
+2023-09-15 00:55:31 ===> Samples for valid = 47
+2023-09-15 00:55:31 ===> Samples for test = 46
+2023-09-15 00:55:31 ===> ===========>Test begining!===========
+2023-09-15 00:55:31 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:55:31 ===> user=anissa
+2023-09-15 00:55:31 ===> experiment=snap_testU_pos_128_test
+2023-09-15 00:55:31 ===> date=2023-09-15
+2023-09-15 00:55:31 ===> description=Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-15 00:55:31 ===> start_epoch=1
+2023-09-15 00:55:31 ===> end_epochs=200
+2023-09-15 00:55:31 ===> submission=./results
+2023-09-15 00:55:31 ===> lambda_epochs=50
+2023-09-15 00:55:31 ===> save_freq=5
+2023-09-15 00:55:31 ===> lr=0.0002
+2023-09-15 00:55:31 ===> savepath=./results/plot/output
+2023-09-15 00:55:31 ===> save_dir=./results
+2023-09-15 00:55:31 ===> mode=test
+2023-09-15 00:55:31 ===> dataset=autopet
+2023-09-15 00:55:31 ===> folder=folder0
+2023-09-15 00:55:31 ===> input_H=300
+2023-09-15 00:55:31 ===> input_W=400
+2023-09-15 00:55:31 ===> input_D=400
+2023-09-15 00:55:31 ===> crop_H=128
+2023-09-15 00:55:31 ===> crop_W=128
+2023-09-15 00:55:31 ===> crop_D=128
+2023-09-15 00:55:31 ===> output_D=155
+2023-09-15 00:55:31 ===> batch_size=2
+2023-09-15 00:55:31 ===> OOD_Condition=normal
+2023-09-15 00:55:31 ===> OOD_Level=0
+2023-09-15 00:55:31 ===> snapshot=True
+2023-09-15 00:55:31 ===> Uncertainty_Loss=False
+2023-09-15 00:55:31 ===> input_modality=petct
+2023-09-15 00:55:31 ===> model_name=U
+2023-09-15 00:55:31 ===> test_epoch=199
+2023-09-15 00:55:31 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:55:31 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:55:31 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:55:31 ===> num_classes=2
+2023-09-15 00:55:31 ===> out_size=(128, 128, 128)
+2023-09-15 00:55:31 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:55:31 ===> Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-15 00:55:35 ===> Single sample test time consumption 2.93 seconds!
+2023-09-15 00:55:38 ===> Importing BlpImagePlugin
+2023-09-15 00:55:38 ===> Importing BmpImagePlugin
+2023-09-15 00:55:38 ===> Importing BufrStubImagePlugin
+2023-09-15 00:55:38 ===> Importing CurImagePlugin
+2023-09-15 00:55:38 ===> Importing DcxImagePlugin
+2023-09-15 00:55:38 ===> Importing DdsImagePlugin
+2023-09-15 00:55:38 ===> Importing EpsImagePlugin
+2023-09-15 00:55:38 ===> Importing FitsImagePlugin
+2023-09-15 00:55:38 ===> Importing FitsStubImagePlugin
+2023-09-15 00:55:38 ===> Importing FliImagePlugin
+2023-09-15 00:55:38 ===> Importing FpxImagePlugin
+2023-09-15 00:55:38 ===> Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-15 00:55:38 ===> Importing FtexImagePlugin
+2023-09-15 00:55:38 ===> Importing GbrImagePlugin
+2023-09-15 00:55:38 ===> Importing GifImagePlugin
+2023-09-15 00:55:38 ===> Importing GribStubImagePlugin
+2023-09-15 00:55:38 ===> Importing Hdf5StubImagePlugin
+2023-09-15 00:55:38 ===> Importing IcnsImagePlugin
+2023-09-15 00:55:38 ===> Importing IcoImagePlugin
+2023-09-15 00:55:38 ===> Importing ImImagePlugin
+2023-09-15 00:55:38 ===> Importing ImtImagePlugin
+2023-09-15 00:55:39 ===> Importing IptcImagePlugin
+2023-09-15 00:55:39 ===> Importing JpegImagePlugin
+2023-09-15 00:55:39 ===> Importing Jpeg2KImagePlugin
+2023-09-15 00:55:39 ===> Importing McIdasImagePlugin
+2023-09-15 00:55:39 ===> Importing MicImagePlugin
+2023-09-15 00:55:39 ===> Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-15 00:55:39 ===> Importing MpegImagePlugin
+2023-09-15 00:55:39 ===> Importing MpoImagePlugin
+2023-09-15 00:55:39 ===> Importing MspImagePlugin
+2023-09-15 00:55:39 ===> Importing PalmImagePlugin
+2023-09-15 00:55:39 ===> Importing PcdImagePlugin
+2023-09-15 00:55:39 ===> Importing PcxImagePlugin
+2023-09-15 00:55:39 ===> Importing PdfImagePlugin
+2023-09-15 00:55:39 ===> Importing PixarImagePlugin
+2023-09-15 00:55:39 ===> Importing PngImagePlugin
+2023-09-15 00:55:39 ===> Importing PpmImagePlugin
+2023-09-15 00:55:39 ===> Importing PsdImagePlugin
+2023-09-15 00:55:39 ===> Importing QoiImagePlugin
+2023-09-15 00:55:39 ===> Importing SgiImagePlugin
+2023-09-15 00:55:39 ===> Importing SpiderImagePlugin
+2023-09-15 00:55:39 ===> Importing SunImagePlugin
+2023-09-15 00:55:39 ===> Importing TgaImagePlugin
+2023-09-15 00:55:39 ===> Importing TiffImagePlugin
+2023-09-15 00:55:39 ===> Importing WebPImagePlugin
+2023-09-15 00:55:39 ===> Importing WmfImagePlugin
+2023-09-15 00:55:39 ===> Importing XbmImagePlugin
+2023-09-15 00:55:39 ===> Importing XpmImagePlugin
+2023-09-15 00:55:39 ===> Importing XVThumbImagePlugin
+2023-09-15 00:55:40 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:41 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:43 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:45 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:47 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:51 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:53 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:57 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:55:58 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:02 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:06 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:10 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:17 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:19 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:23 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:27 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:29 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:30 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:32 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:34 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:38 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:42 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:43 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:47 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:50 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:52 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:54 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:56:58 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:01 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:03 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:05 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:07 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:09 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:11 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:17 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:18 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:22 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:27 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:31 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:33 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:57:34 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 01:06:52 ===> re-training!!!
+2023-09-15 01:06:52 ===> Samples for train = 358
+2023-09-15 01:06:52 ===> Samples for valid = 47
+2023-09-15 01:06:52 ===> Samples for test = 46
+2023-09-15 01:06:52 ===> ===========>Test begining!===========
+2023-09-15 01:06:52 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 01:06:52 ===> user=anissa
+2023-09-15 01:06:52 ===> experiment=snap_testU_pos_128_test
+2023-09-15 01:06:52 ===> date=2023-09-15
+2023-09-15 01:06:52 ===> description=Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-15 01:06:52 ===> start_epoch=1
+2023-09-15 01:06:52 ===> end_epochs=200
+2023-09-15 01:06:52 ===> submission=./results
+2023-09-15 01:06:52 ===> lambda_epochs=50
+2023-09-15 01:06:52 ===> save_freq=5
+2023-09-15 01:06:52 ===> lr=0.0002
+2023-09-15 01:06:52 ===> savepath=./results/plot/output
+2023-09-15 01:06:52 ===> save_dir=./results
+2023-09-15 01:06:52 ===> mode=test
+2023-09-15 01:06:52 ===> dataset=autopet
+2023-09-15 01:06:52 ===> folder=folder0
+2023-09-15 01:06:52 ===> input_H=300
+2023-09-15 01:06:52 ===> input_W=400
+2023-09-15 01:06:52 ===> input_D=400
+2023-09-15 01:06:52 ===> crop_H=128
+2023-09-15 01:06:52 ===> crop_W=128
+2023-09-15 01:06:52 ===> crop_D=128
+2023-09-15 01:06:52 ===> output_D=155
+2023-09-15 01:06:52 ===> batch_size=2
+2023-09-15 01:06:52 ===> OOD_Condition=normal
+2023-09-15 01:06:52 ===> OOD_Level=0
+2023-09-15 01:06:52 ===> snapshot=True
+2023-09-15 01:06:52 ===> Uncertainty_Loss=False
+2023-09-15 01:06:52 ===> input_modality=petct
+2023-09-15 01:06:52 ===> model_name=U
+2023-09-15 01:06:52 ===> test_epoch=199
+2023-09-15 01:06:52 ===> train_file=pos_train_imgs.txt
+2023-09-15 01:06:52 ===> val_file=pos_val_imgs.txt
+2023-09-15 01:06:52 ===> test_file=pos_test_imgs.txt
+2023-09-15 01:06:52 ===> num_classes=2
+2023-09-15 01:06:52 ===> out_size=(128, 128, 128)
+2023-09-15 01:06:52 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 01:06:52 ===> Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-15 01:07:01 ===> Single sample test time consumption 7.71 seconds!
+2023-09-15 01:07:05 ===> Importing BlpImagePlugin
+2023-09-15 01:07:05 ===> Importing BmpImagePlugin
+2023-09-15 01:07:05 ===> Importing BufrStubImagePlugin
+2023-09-15 01:07:05 ===> Importing CurImagePlugin
+2023-09-15 01:07:05 ===> Importing DcxImagePlugin
+2023-09-15 01:07:05 ===> Importing DdsImagePlugin
+2023-09-15 01:07:05 ===> Importing EpsImagePlugin
+2023-09-15 01:07:05 ===> Importing FitsImagePlugin
+2023-09-15 01:07:05 ===> Importing FitsStubImagePlugin
+2023-09-15 01:07:05 ===> Importing FliImagePlugin
+2023-09-15 01:07:05 ===> Importing FpxImagePlugin
+2023-09-15 01:07:05 ===> Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-15 01:07:05 ===> Importing FtexImagePlugin
+2023-09-15 01:07:05 ===> Importing GbrImagePlugin
+2023-09-15 01:07:05 ===> Importing GifImagePlugin
+2023-09-15 01:07:05 ===> Importing GribStubImagePlugin
+2023-09-15 01:07:05 ===> Importing Hdf5StubImagePlugin
+2023-09-15 01:07:05 ===> Importing IcnsImagePlugin
+2023-09-15 01:07:05 ===> Importing IcoImagePlugin
+2023-09-15 01:07:05 ===> Importing ImImagePlugin
+2023-09-15 01:07:05 ===> Importing ImtImagePlugin
+2023-09-15 01:07:05 ===> Importing IptcImagePlugin
+2023-09-15 01:07:05 ===> Importing JpegImagePlugin
+2023-09-15 01:07:05 ===> Importing Jpeg2KImagePlugin
+2023-09-15 01:07:05 ===> Importing McIdasImagePlugin
+2023-09-15 01:07:05 ===> Importing MicImagePlugin
+2023-09-15 01:07:05 ===> Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-15 01:07:05 ===> Importing MpegImagePlugin
+2023-09-15 01:07:05 ===> Importing MpoImagePlugin
+2023-09-15 01:07:05 ===> Importing MspImagePlugin
+2023-09-15 01:07:05 ===> Importing PalmImagePlugin
+2023-09-15 01:07:05 ===> Importing PcdImagePlugin
+2023-09-15 01:07:05 ===> Importing PcxImagePlugin
+2023-09-15 01:07:05 ===> Importing PdfImagePlugin
+2023-09-15 01:07:05 ===> Importing PixarImagePlugin
+2023-09-15 01:07:05 ===> Importing PngImagePlugin
+2023-09-15 01:07:05 ===> Importing PpmImagePlugin
+2023-09-15 01:07:05 ===> Importing PsdImagePlugin
+2023-09-15 01:07:05 ===> Importing QoiImagePlugin
+2023-09-15 01:07:05 ===> Importing SgiImagePlugin
+2023-09-15 01:07:05 ===> Importing SpiderImagePlugin
+2023-09-15 01:07:05 ===> Importing SunImagePlugin
+2023-09-15 01:07:05 ===> Importing TgaImagePlugin
+2023-09-15 01:07:05 ===> Importing TiffImagePlugin
+2023-09-15 01:07:05 ===> Importing WebPImagePlugin
+2023-09-15 01:07:05 ===> Importing WmfImagePlugin
+2023-09-15 01:07:05 ===> Importing XbmImagePlugin
+2023-09-15 01:07:05 ===> Importing XpmImagePlugin
+2023-09-15 01:07:05 ===> Importing XVThumbImagePlugin
+2023-09-15 01:07:06 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:09 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:11 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:14 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:18 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:21 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:23 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:26 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:28 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:31 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:33 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:38 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:40 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:43 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:45 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:50 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:54 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:57 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:07:59 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:02 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:06 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:11 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:16 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:19 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:21 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:25 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:30 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:32 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:35 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:37 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:40 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:42 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:45 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:47 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:50 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:52 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:55 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:08:57 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:00 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:02 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:06 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:09 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:14 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:16 ===> Single sample test time consumption 0.13 seconds!
+2023-09-15 01:09:19 ===> Single sample test time consumption 0.13 seconds!

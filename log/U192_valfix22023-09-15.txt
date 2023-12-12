@@ -1,0 +1,202 @@
+2023-09-15 11:59:17 ===> re-training!!!
+2023-09-15 12:00:44 ===> ===========>Test begining!===========
+2023-09-15 12:00:44 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 12:00:44 ===> user=anissa
+2023-09-15 12:00:44 ===> experiment=U192_valfix2
+2023-09-15 12:00:44 ===> date=2023-09-15
+2023-09-15 12:00:44 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 12:00:44 ===> mode=train
+2023-09-15 12:00:44 ===> dataset=autopet2
+2023-09-15 12:00:44 ===> crop_H=192
+2023-09-15 12:00:44 ===> crop_W=192
+2023-09-15 12:00:44 ===> crop_D=192
+2023-09-15 12:00:44 ===> num_classes=2
+2023-09-15 12:00:44 ===> input_modality=petct
+2023-09-15 12:00:44 ===> folder=folder0
+2023-09-15 12:00:44 ===> input_C=2
+2023-09-15 12:00:44 ===> input_H=192
+2023-09-15 12:00:44 ===> input_W=192
+2023-09-15 12:00:44 ===> input_D=192
+2023-09-15 12:00:44 ===> output_D=192
+2023-09-15 12:00:44 ===> lr=0.0002
+2023-09-15 12:00:44 ===> weight_decay=1e-05
+2023-09-15 12:00:44 ===> submission=./results
+2023-09-15 12:00:44 ===> seed=1000
+2023-09-15 12:00:44 ===> no_cuda=False
+2023-09-15 12:00:44 ===> batch_size=2
+2023-09-15 12:00:44 ===> start_epoch=0
+2023-09-15 12:00:44 ===> end_epochs=10
+2023-09-15 12:00:44 ===> save_freq=5
+2023-09-15 12:00:44 ===> resume=
+2023-09-15 12:00:44 ===> load=True
+2023-09-15 12:00:44 ===> model_name=U
+2023-09-15 12:00:44 ===> en_time=10
+2023-09-15 12:00:44 ===> OOD_Condition=normal
+2023-09-15 12:00:44 ===> OOD_Level=1
+2023-09-15 12:00:44 ===> use_TTA=False
+2023-09-15 12:00:44 ===> snapshot=True
+2023-09-15 12:00:44 ===> save_format=nii
+2023-09-15 12:00:44 ===> test_date=2023-01-01
+2023-09-15 12:00:44 ===> test_epoch=199
+2023-09-15 12:00:44 ===> n_skip=3
+2023-09-15 12:00:44 ===> vit_name=R50-ViT-B_16
+2023-09-15 12:00:44 ===> vit_patches_size=16
+2023-09-15 12:00:44 ===> train_file=pos_train_imgs.txt
+2023-09-15 12:00:44 ===> val_file=pos_val_imgs.txt
+2023-09-15 12:00:44 ===> test_file=pos_test_imgs.txt
+2023-09-15 12:00:44 ===> lambda_epochs=50
+2023-09-15 12:00:44 ===> Uncertainty_Loss=False
+2023-09-15 12:00:44 ===> save_dir=./results
+2023-09-15 12:00:44 ===> out_size=(192, 192, 192)
+2023-09-15 12:00:44 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 12:00:44 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 12:01:18 ===> ===========>Test begining!===========
+2023-09-15 12:01:18 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 12:01:18 ===> user=anissa
+2023-09-15 12:01:18 ===> experiment=U192_valfix2
+2023-09-15 12:01:18 ===> date=2023-09-15
+2023-09-15 12:01:18 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 12:01:18 ===> mode=test
+2023-09-15 12:01:18 ===> dataset=autopet2
+2023-09-15 12:01:18 ===> crop_H=192
+2023-09-15 12:01:18 ===> crop_W=192
+2023-09-15 12:01:18 ===> crop_D=192
+2023-09-15 12:01:18 ===> num_classes=2
+2023-09-15 12:01:18 ===> input_modality=petct
+2023-09-15 12:01:18 ===> folder=folder0
+2023-09-15 12:01:18 ===> input_C=2
+2023-09-15 12:01:18 ===> input_H=192
+2023-09-15 12:01:18 ===> input_W=192
+2023-09-15 12:01:18 ===> input_D=192
+2023-09-15 12:01:18 ===> output_D=192
+2023-09-15 12:01:18 ===> lr=0.0002
+2023-09-15 12:01:18 ===> weight_decay=1e-05
+2023-09-15 12:01:18 ===> submission=./results
+2023-09-15 12:01:18 ===> seed=1000
+2023-09-15 12:01:18 ===> no_cuda=False
+2023-09-15 12:01:18 ===> batch_size=2
+2023-09-15 12:01:18 ===> start_epoch=108
+2023-09-15 12:01:18 ===> end_epochs=10
+2023-09-15 12:01:18 ===> save_freq=5
+2023-09-15 12:01:18 ===> resume=
+2023-09-15 12:01:18 ===> load=True
+2023-09-15 12:01:18 ===> model_name=U
+2023-09-15 12:01:18 ===> en_time=10
+2023-09-15 12:01:18 ===> OOD_Condition=normal
+2023-09-15 12:01:18 ===> OOD_Level=1
+2023-09-15 12:01:18 ===> use_TTA=False
+2023-09-15 12:01:18 ===> snapshot=True
+2023-09-15 12:01:18 ===> save_format=nii
+2023-09-15 12:01:18 ===> test_date=2023-01-01
+2023-09-15 12:01:18 ===> test_epoch=199
+2023-09-15 12:01:18 ===> n_skip=3
+2023-09-15 12:01:18 ===> vit_name=R50-ViT-B_16
+2023-09-15 12:01:18 ===> vit_patches_size=16
+2023-09-15 12:01:18 ===> train_file=pos_train_imgs.txt
+2023-09-15 12:01:18 ===> val_file=pos_val_imgs.txt
+2023-09-15 12:01:18 ===> test_file=pos_test_imgs.txt
+2023-09-15 12:01:18 ===> lambda_epochs=50
+2023-09-15 12:01:18 ===> Uncertainty_Loss=False
+2023-09-15 12:01:18 ===> save_dir=./results
+2023-09-15 12:01:18 ===> out_size=(192, 192, 192)
+2023-09-15 12:01:18 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 12:01:18 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 13:07:08 ===> re-training!!!
+2023-09-15 13:21:12 ===> re-training!!!
+2023-09-15 13:21:12 ===> ===========>Test begining!===========
+2023-09-15 13:21:12 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 13:21:12 ===> user=anissa
+2023-09-15 13:21:12 ===> experiment=U192_valfix2
+2023-09-15 13:21:12 ===> date=2023-09-15
+2023-09-15 13:21:12 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 13:21:12 ===> mode=train
+2023-09-15 13:21:12 ===> dataset=autopet2
+2023-09-15 13:21:12 ===> crop_H=192
+2023-09-15 13:21:12 ===> crop_W=192
+2023-09-15 13:21:12 ===> crop_D=192
+2023-09-15 13:21:12 ===> num_classes=2
+2023-09-15 13:21:12 ===> input_modality=petct
+2023-09-15 13:21:12 ===> folder=folder0
+2023-09-15 13:21:12 ===> input_C=2
+2023-09-15 13:21:12 ===> input_H=192
+2023-09-15 13:21:12 ===> input_W=192
+2023-09-15 13:21:12 ===> input_D=192
+2023-09-15 13:21:12 ===> output_D=192
+2023-09-15 13:21:12 ===> lr=0.0002
+2023-09-15 13:21:12 ===> weight_decay=1e-05
+2023-09-15 13:21:12 ===> submission=./results
+2023-09-15 13:21:12 ===> seed=1000
+2023-09-15 13:21:12 ===> no_cuda=False
+2023-09-15 13:21:12 ===> batch_size=2
+2023-09-15 13:21:12 ===> start_epoch=0
+2023-09-15 13:21:12 ===> end_epochs=10
+2023-09-15 13:21:12 ===> save_freq=5
+2023-09-15 13:21:12 ===> resume=
+2023-09-15 13:21:12 ===> load=True
+2023-09-15 13:21:12 ===> model_name=U
+2023-09-15 13:21:12 ===> en_time=10
+2023-09-15 13:21:12 ===> OOD_Condition=normal
+2023-09-15 13:21:12 ===> OOD_Level=1
+2023-09-15 13:21:12 ===> use_TTA=False
+2023-09-15 13:21:12 ===> snapshot=True
+2023-09-15 13:21:12 ===> save_format=nii
+2023-09-15 13:21:12 ===> test_date=2023-01-01
+2023-09-15 13:21:12 ===> test_epoch=199
+2023-09-15 13:21:12 ===> n_skip=3
+2023-09-15 13:21:12 ===> vit_name=R50-ViT-B_16
+2023-09-15 13:21:12 ===> vit_patches_size=16
+2023-09-15 13:21:12 ===> train_file=pos_train_imgs.txt
+2023-09-15 13:21:12 ===> val_file=pos_val_imgs.txt
+2023-09-15 13:21:12 ===> test_file=pos_test_imgs.txt
+2023-09-15 13:21:12 ===> lambda_epochs=50
+2023-09-15 13:21:12 ===> Uncertainty_Loss=False
+2023-09-15 13:21:12 ===> save_dir=./results
+2023-09-15 13:21:12 ===> out_size=(192, 192, 192)
+2023-09-15 13:21:12 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 13:21:12 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 13:21:20 ===> Single sample test time consumption 7.12 seconds!
+2023-09-15 13:21:36 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:21:51 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:22:07 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:22:15 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:22:30 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:22:45 ===> Single sample test time consumption 0.31 seconds!
+2023-09-15 13:23:00 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:23:08 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:23:22 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:23:38 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:23:46 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:24:01 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:24:17 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:24:34 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:24:49 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:24:57 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:25:11 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:25:26 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:25:40 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:25:56 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:26:09 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:26:24 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:26:40 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:26:55 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:27:09 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:27:24 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:27:39 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:27:48 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:28:03 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:28:18 ===> Single sample test time consumption 0.31 seconds!
+2023-09-15 13:28:26 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:28:40 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:28:56 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:29:04 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:29:18 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:29:32 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:29:47 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:30:02 ===> Single sample test time consumption 0.29 seconds!
+2023-09-15 13:30:16 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:30:32 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:30:47 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:31:01 ===> Single sample test time consumption 0.28 seconds!
+2023-09-15 13:31:18 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:31:32 ===> Single sample test time consumption 0.30 seconds!
+2023-09-15 13:31:48 ===> Single sample test time consumption 0.30 seconds!

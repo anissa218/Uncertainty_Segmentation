@@ -1,0 +1,1626 @@
+2023-09-15 00:33:38 ===> re-training!!!
+2023-09-15 00:33:47 ===> ===========>Test begining!===========
+2023-09-15 00:33:47 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:33:47 ===> user=anissa
+2023-09-15 00:33:47 ===> experiment=UMIS
+2023-09-15 00:33:47 ===> date=2023-09-15
+2023-09-15 00:33:47 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:33:47 ===> mode=test
+2023-09-15 00:33:47 ===> dataset=autopet
+2023-09-15 00:33:47 ===> crop_H=128
+2023-09-15 00:33:47 ===> crop_W=128
+2023-09-15 00:33:47 ===> crop_D=128
+2023-09-15 00:33:47 ===> num_classes=2
+2023-09-15 00:33:47 ===> input_modality=petct
+2023-09-15 00:33:47 ===> folder=folder0
+2023-09-15 00:33:47 ===> input_C=4
+2023-09-15 00:33:47 ===> input_H=128
+2023-09-15 00:33:47 ===> input_W=128
+2023-09-15 00:33:47 ===> input_D=12
+2023-09-15 00:33:47 ===> output_D=155
+2023-09-15 00:33:47 ===> lr=0.0002
+2023-09-15 00:33:47 ===> weight_decay=1e-05
+2023-09-15 00:33:47 ===> submission=./results
+2023-09-15 00:33:47 ===> seed=1000
+2023-09-15 00:33:47 ===> no_cuda=False
+2023-09-15 00:33:47 ===> batch_size=2
+2023-09-15 00:33:47 ===> start_epoch=0
+2023-09-15 00:33:47 ===> end_epochs=10
+2023-09-15 00:33:47 ===> save_freq=5
+2023-09-15 00:33:47 ===> resume=
+2023-09-15 00:33:47 ===> load=True
+2023-09-15 00:33:47 ===> model_name=U
+2023-09-15 00:33:47 ===> en_time=10
+2023-09-15 00:33:47 ===> OOD_Condition=normal
+2023-09-15 00:33:47 ===> OOD_Level=1
+2023-09-15 00:33:47 ===> use_TTA=False
+2023-09-15 00:33:47 ===> snapshot=True
+2023-09-15 00:33:47 ===> save_format=nii
+2023-09-15 00:33:47 ===> test_date=2023-01-01
+2023-09-15 00:33:47 ===> test_epoch=199
+2023-09-15 00:33:47 ===> n_skip=3
+2023-09-15 00:33:47 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:33:47 ===> vit_patches_size=16
+2023-09-15 00:33:47 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:33:47 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:33:47 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:33:47 ===> lambda_epochs=50
+2023-09-15 00:33:47 ===> Uncertainty_Loss=False
+2023-09-15 00:33:47 ===> out_size=(128, 128, 128)
+2023-09-15 00:33:47 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:33:47 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:34:44 ===> ===========>Test begining!===========
+2023-09-15 00:34:44 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:34:44 ===> user=anissa
+2023-09-15 00:34:44 ===> experiment=UMIS
+2023-09-15 00:34:44 ===> date=2023-09-15
+2023-09-15 00:34:44 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:34:44 ===> mode=test
+2023-09-15 00:34:44 ===> dataset=autopet
+2023-09-15 00:34:44 ===> crop_H=128
+2023-09-15 00:34:44 ===> crop_W=128
+2023-09-15 00:34:44 ===> crop_D=128
+2023-09-15 00:34:44 ===> num_classes=2
+2023-09-15 00:34:44 ===> input_modality=petct
+2023-09-15 00:34:44 ===> folder=folder0
+2023-09-15 00:34:44 ===> input_C=4
+2023-09-15 00:34:44 ===> input_H=128
+2023-09-15 00:34:44 ===> input_W=128
+2023-09-15 00:34:44 ===> input_D=12
+2023-09-15 00:34:44 ===> output_D=155
+2023-09-15 00:34:44 ===> lr=0.0002
+2023-09-15 00:34:44 ===> weight_decay=1e-05
+2023-09-15 00:34:44 ===> submission=./results
+2023-09-15 00:34:44 ===> seed=1000
+2023-09-15 00:34:44 ===> no_cuda=False
+2023-09-15 00:34:44 ===> batch_size=2
+2023-09-15 00:34:44 ===> start_epoch=0
+2023-09-15 00:34:44 ===> end_epochs=10
+2023-09-15 00:34:44 ===> save_freq=5
+2023-09-15 00:34:44 ===> resume=
+2023-09-15 00:34:44 ===> load=True
+2023-09-15 00:34:44 ===> model_name=U
+2023-09-15 00:34:44 ===> en_time=10
+2023-09-15 00:34:44 ===> OOD_Condition=normal
+2023-09-15 00:34:44 ===> OOD_Level=1
+2023-09-15 00:34:44 ===> use_TTA=False
+2023-09-15 00:34:44 ===> snapshot=True
+2023-09-15 00:34:44 ===> save_format=nii
+2023-09-15 00:34:44 ===> test_date=2023-01-01
+2023-09-15 00:34:44 ===> test_epoch=199
+2023-09-15 00:34:44 ===> n_skip=3
+2023-09-15 00:34:44 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:34:44 ===> vit_patches_size=16
+2023-09-15 00:34:44 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:34:44 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:34:44 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:34:44 ===> lambda_epochs=50
+2023-09-15 00:34:44 ===> Uncertainty_Loss=False
+2023-09-15 00:34:44 ===> out_size=(128, 128, 128)
+2023-09-15 00:34:44 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:34:44 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:35:56 ===> ===========>Test begining!===========
+2023-09-15 00:35:56 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:35:56 ===> user=anissa
+2023-09-15 00:35:56 ===> experiment=UMIS
+2023-09-15 00:35:56 ===> date=2023-09-15
+2023-09-15 00:35:56 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:35:56 ===> mode=test
+2023-09-15 00:35:56 ===> dataset=autopet
+2023-09-15 00:35:56 ===> crop_H=128
+2023-09-15 00:35:56 ===> crop_W=128
+2023-09-15 00:35:56 ===> crop_D=128
+2023-09-15 00:35:56 ===> num_classes=2
+2023-09-15 00:35:56 ===> input_modality=petct
+2023-09-15 00:35:56 ===> folder=folder0
+2023-09-15 00:35:56 ===> input_C=4
+2023-09-15 00:35:56 ===> input_H=128
+2023-09-15 00:35:56 ===> input_W=128
+2023-09-15 00:35:56 ===> input_D=12
+2023-09-15 00:35:56 ===> output_D=155
+2023-09-15 00:35:56 ===> lr=0.0002
+2023-09-15 00:35:56 ===> weight_decay=1e-05
+2023-09-15 00:35:56 ===> submission=./results
+2023-09-15 00:35:56 ===> seed=1000
+2023-09-15 00:35:56 ===> no_cuda=False
+2023-09-15 00:35:56 ===> batch_size=2
+2023-09-15 00:35:56 ===> start_epoch=0
+2023-09-15 00:35:56 ===> end_epochs=10
+2023-09-15 00:35:56 ===> save_freq=5
+2023-09-15 00:35:56 ===> resume=
+2023-09-15 00:35:56 ===> load=True
+2023-09-15 00:35:56 ===> model_name=U
+2023-09-15 00:35:56 ===> en_time=10
+2023-09-15 00:35:56 ===> OOD_Condition=normal
+2023-09-15 00:35:56 ===> OOD_Level=1
+2023-09-15 00:35:56 ===> use_TTA=False
+2023-09-15 00:35:56 ===> snapshot=True
+2023-09-15 00:35:56 ===> save_format=nii
+2023-09-15 00:35:56 ===> test_date=2023-01-01
+2023-09-15 00:35:56 ===> test_epoch=199
+2023-09-15 00:35:56 ===> n_skip=3
+2023-09-15 00:35:56 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:35:56 ===> vit_patches_size=16
+2023-09-15 00:35:56 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:35:56 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:35:56 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:35:56 ===> lambda_epochs=50
+2023-09-15 00:35:56 ===> Uncertainty_Loss=False
+2023-09-15 00:35:56 ===> save_dir=./results
+2023-09-15 00:35:56 ===> out_size=(128, 128, 128)
+2023-09-15 00:35:56 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:35:56 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:36:02 ===> Single sample test time consumption 5.45 seconds!
+2023-09-15 00:36:04 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:36:08 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:36:10 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:36:11 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:36:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:36:15 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:36:17 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:36:20 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:37:19 ===> ===========>Test begining!===========
+2023-09-15 00:37:19 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:37:19 ===> user=anissa
+2023-09-15 00:37:19 ===> experiment=UMIS
+2023-09-15 00:37:19 ===> date=2023-09-15
+2023-09-15 00:37:19 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:37:19 ===> mode=test
+2023-09-15 00:37:19 ===> dataset=autopet
+2023-09-15 00:37:19 ===> crop_H=128
+2023-09-15 00:37:19 ===> crop_W=128
+2023-09-15 00:37:19 ===> crop_D=128
+2023-09-15 00:37:19 ===> num_classes=2
+2023-09-15 00:37:19 ===> input_modality=petct
+2023-09-15 00:37:19 ===> folder=folder0
+2023-09-15 00:37:19 ===> input_C=4
+2023-09-15 00:37:19 ===> input_H=128
+2023-09-15 00:37:19 ===> input_W=128
+2023-09-15 00:37:19 ===> input_D=12
+2023-09-15 00:37:19 ===> output_D=155
+2023-09-15 00:37:19 ===> lr=0.0002
+2023-09-15 00:37:19 ===> weight_decay=1e-05
+2023-09-15 00:37:19 ===> submission=./results
+2023-09-15 00:37:19 ===> seed=1000
+2023-09-15 00:37:19 ===> no_cuda=False
+2023-09-15 00:37:19 ===> batch_size=2
+2023-09-15 00:37:19 ===> start_epoch=199
+2023-09-15 00:37:19 ===> end_epochs=10
+2023-09-15 00:37:19 ===> save_freq=5
+2023-09-15 00:37:19 ===> resume=
+2023-09-15 00:37:19 ===> load=True
+2023-09-15 00:37:19 ===> model_name=U
+2023-09-15 00:37:19 ===> en_time=10
+2023-09-15 00:37:19 ===> OOD_Condition=normal
+2023-09-15 00:37:19 ===> OOD_Level=1
+2023-09-15 00:37:19 ===> use_TTA=False
+2023-09-15 00:37:19 ===> snapshot=True
+2023-09-15 00:37:19 ===> save_format=nii
+2023-09-15 00:37:19 ===> test_date=2023-01-01
+2023-09-15 00:37:19 ===> test_epoch=199
+2023-09-15 00:37:19 ===> n_skip=3
+2023-09-15 00:37:19 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:37:19 ===> vit_patches_size=16
+2023-09-15 00:37:19 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:37:19 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:37:19 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:37:19 ===> lambda_epochs=50
+2023-09-15 00:37:19 ===> Uncertainty_Loss=False
+2023-09-15 00:37:19 ===> save_dir=./results
+2023-09-15 00:37:19 ===> out_size=(128, 128, 128)
+2023-09-15 00:37:19 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:37:19 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:37:20 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:37:21 ===> Importing BlpImagePlugin
+2023-09-15 00:37:21 ===> Importing BmpImagePlugin
+2023-09-15 00:37:21 ===> Importing BufrStubImagePlugin
+2023-09-15 00:37:21 ===> Importing CurImagePlugin
+2023-09-15 00:37:21 ===> Importing DcxImagePlugin
+2023-09-15 00:37:21 ===> Importing DdsImagePlugin
+2023-09-15 00:37:21 ===> Importing EpsImagePlugin
+2023-09-15 00:37:21 ===> Importing FitsImagePlugin
+2023-09-15 00:37:21 ===> Importing FitsStubImagePlugin
+2023-09-15 00:37:21 ===> Importing FliImagePlugin
+2023-09-15 00:37:21 ===> Importing FpxImagePlugin
+2023-09-15 00:37:21 ===> Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-15 00:37:21 ===> Importing FtexImagePlugin
+2023-09-15 00:37:21 ===> Importing GbrImagePlugin
+2023-09-15 00:37:21 ===> Importing GifImagePlugin
+2023-09-15 00:37:21 ===> Importing GribStubImagePlugin
+2023-09-15 00:37:21 ===> Importing Hdf5StubImagePlugin
+2023-09-15 00:37:21 ===> Importing IcnsImagePlugin
+2023-09-15 00:37:22 ===> Importing IcoImagePlugin
+2023-09-15 00:37:22 ===> Importing ImImagePlugin
+2023-09-15 00:37:22 ===> Importing ImtImagePlugin
+2023-09-15 00:37:22 ===> Importing IptcImagePlugin
+2023-09-15 00:37:22 ===> Importing JpegImagePlugin
+2023-09-15 00:37:22 ===> Importing Jpeg2KImagePlugin
+2023-09-15 00:37:22 ===> Importing McIdasImagePlugin
+2023-09-15 00:37:22 ===> Importing MicImagePlugin
+2023-09-15 00:37:22 ===> Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-15 00:37:22 ===> Importing MpegImagePlugin
+2023-09-15 00:37:22 ===> Importing MpoImagePlugin
+2023-09-15 00:37:22 ===> Importing MspImagePlugin
+2023-09-15 00:37:22 ===> Importing PalmImagePlugin
+2023-09-15 00:37:22 ===> Importing PcdImagePlugin
+2023-09-15 00:37:22 ===> Importing PcxImagePlugin
+2023-09-15 00:37:22 ===> Importing PdfImagePlugin
+2023-09-15 00:37:22 ===> Importing PixarImagePlugin
+2023-09-15 00:37:22 ===> Importing PngImagePlugin
+2023-09-15 00:37:22 ===> Importing PpmImagePlugin
+2023-09-15 00:37:22 ===> Importing PsdImagePlugin
+2023-09-15 00:37:22 ===> Importing QoiImagePlugin
+2023-09-15 00:37:22 ===> Importing SgiImagePlugin
+2023-09-15 00:37:22 ===> Importing SpiderImagePlugin
+2023-09-15 00:37:22 ===> Importing SunImagePlugin
+2023-09-15 00:37:22 ===> Importing TgaImagePlugin
+2023-09-15 00:37:22 ===> Importing TiffImagePlugin
+2023-09-15 00:37:22 ===> Importing WebPImagePlugin
+2023-09-15 00:37:22 ===> Importing WmfImagePlugin
+2023-09-15 00:37:22 ===> Importing XbmImagePlugin
+2023-09-15 00:37:22 ===> Importing XpmImagePlugin
+2023-09-15 00:37:22 ===> Importing XVThumbImagePlugin
+2023-09-15 00:40:33 ===> ===========>Test begining!===========
+2023-09-15 00:40:33 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:40:33 ===> user=anissa
+2023-09-15 00:40:33 ===> experiment=UMIS
+2023-09-15 00:40:33 ===> date=2023-09-15
+2023-09-15 00:40:33 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:40:33 ===> mode=test
+2023-09-15 00:40:33 ===> dataset=autopet
+2023-09-15 00:40:33 ===> crop_H=128
+2023-09-15 00:40:33 ===> crop_W=128
+2023-09-15 00:40:33 ===> crop_D=128
+2023-09-15 00:40:33 ===> num_classes=2
+2023-09-15 00:40:33 ===> input_modality=petct
+2023-09-15 00:40:33 ===> folder=folder0
+2023-09-15 00:40:33 ===> input_C=4
+2023-09-15 00:40:33 ===> input_H=128
+2023-09-15 00:40:33 ===> input_W=128
+2023-09-15 00:40:33 ===> input_D=12
+2023-09-15 00:40:33 ===> output_D=155
+2023-09-15 00:40:33 ===> lr=0.0002
+2023-09-15 00:40:33 ===> weight_decay=1e-05
+2023-09-15 00:40:33 ===> submission=./results
+2023-09-15 00:40:33 ===> seed=1000
+2023-09-15 00:40:33 ===> no_cuda=False
+2023-09-15 00:40:33 ===> batch_size=2
+2023-09-15 00:40:33 ===> start_epoch=199
+2023-09-15 00:40:33 ===> end_epochs=10
+2023-09-15 00:40:33 ===> save_freq=5
+2023-09-15 00:40:33 ===> resume=
+2023-09-15 00:40:33 ===> load=True
+2023-09-15 00:40:33 ===> model_name=U
+2023-09-15 00:40:33 ===> en_time=10
+2023-09-15 00:40:33 ===> OOD_Condition=normal
+2023-09-15 00:40:33 ===> OOD_Level=1
+2023-09-15 00:40:33 ===> use_TTA=False
+2023-09-15 00:40:33 ===> snapshot=True
+2023-09-15 00:40:33 ===> save_format=nii
+2023-09-15 00:40:33 ===> test_date=2023-01-01
+2023-09-15 00:40:33 ===> test_epoch=199
+2023-09-15 00:40:33 ===> n_skip=3
+2023-09-15 00:40:33 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:40:33 ===> vit_patches_size=16
+2023-09-15 00:40:33 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:40:33 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:40:33 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:40:33 ===> lambda_epochs=50
+2023-09-15 00:40:33 ===> Uncertainty_Loss=False
+2023-09-15 00:40:33 ===> save_dir=./results
+2023-09-15 00:40:33 ===> out_size=(128, 128, 128)
+2023-09-15 00:40:33 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:40:33 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:40:33 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:42:07 ===> ===========>Test begining!===========
+2023-09-15 00:42:07 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:42:07 ===> user=anissa
+2023-09-15 00:42:07 ===> experiment=UMIS
+2023-09-15 00:42:07 ===> date=2023-09-15
+2023-09-15 00:42:07 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:42:07 ===> mode=test
+2023-09-15 00:42:07 ===> dataset=autopet
+2023-09-15 00:42:07 ===> crop_H=128
+2023-09-15 00:42:07 ===> crop_W=128
+2023-09-15 00:42:07 ===> crop_D=128
+2023-09-15 00:42:07 ===> num_classes=2
+2023-09-15 00:42:07 ===> input_modality=petct
+2023-09-15 00:42:07 ===> folder=folder0
+2023-09-15 00:42:07 ===> input_C=4
+2023-09-15 00:42:07 ===> input_H=128
+2023-09-15 00:42:07 ===> input_W=128
+2023-09-15 00:42:07 ===> input_D=12
+2023-09-15 00:42:07 ===> output_D=155
+2023-09-15 00:42:07 ===> lr=0.0002
+2023-09-15 00:42:07 ===> weight_decay=1e-05
+2023-09-15 00:42:07 ===> submission=./results
+2023-09-15 00:42:08 ===> seed=1000
+2023-09-15 00:42:08 ===> no_cuda=False
+2023-09-15 00:42:08 ===> batch_size=2
+2023-09-15 00:42:08 ===> start_epoch=199
+2023-09-15 00:42:08 ===> end_epochs=10
+2023-09-15 00:42:08 ===> save_freq=5
+2023-09-15 00:42:08 ===> resume=
+2023-09-15 00:42:08 ===> load=True
+2023-09-15 00:42:08 ===> model_name=U
+2023-09-15 00:42:08 ===> en_time=10
+2023-09-15 00:42:08 ===> OOD_Condition=normal
+2023-09-15 00:42:08 ===> OOD_Level=1
+2023-09-15 00:42:08 ===> use_TTA=False
+2023-09-15 00:42:08 ===> snapshot=True
+2023-09-15 00:42:08 ===> save_format=nii
+2023-09-15 00:42:08 ===> test_date=2023-01-01
+2023-09-15 00:42:08 ===> test_epoch=199
+2023-09-15 00:42:08 ===> n_skip=3
+2023-09-15 00:42:08 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:42:08 ===> vit_patches_size=16
+2023-09-15 00:42:08 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:42:08 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:42:08 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:42:08 ===> lambda_epochs=50
+2023-09-15 00:42:08 ===> Uncertainty_Loss=False
+2023-09-15 00:42:08 ===> save_dir=./results
+2023-09-15 00:42:08 ===> out_size=(128, 128, 128)
+2023-09-15 00:42:08 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:42:08 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:42:08 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:15 ===> ===========>Test begining!===========
+2023-09-15 00:44:15 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 00:44:15 ===> user=anissa
+2023-09-15 00:44:15 ===> experiment=UMIS
+2023-09-15 00:44:15 ===> date=2023-09-15
+2023-09-15 00:44:15 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:44:15 ===> mode=test
+2023-09-15 00:44:15 ===> dataset=autopet
+2023-09-15 00:44:15 ===> crop_H=128
+2023-09-15 00:44:15 ===> crop_W=128
+2023-09-15 00:44:15 ===> crop_D=128
+2023-09-15 00:44:15 ===> num_classes=2
+2023-09-15 00:44:15 ===> input_modality=petct
+2023-09-15 00:44:15 ===> folder=folder0
+2023-09-15 00:44:15 ===> input_C=4
+2023-09-15 00:44:15 ===> input_H=128
+2023-09-15 00:44:15 ===> input_W=128
+2023-09-15 00:44:15 ===> input_D=12
+2023-09-15 00:44:15 ===> output_D=155
+2023-09-15 00:44:15 ===> lr=0.0002
+2023-09-15 00:44:15 ===> weight_decay=1e-05
+2023-09-15 00:44:15 ===> submission=./results
+2023-09-15 00:44:15 ===> seed=1000
+2023-09-15 00:44:15 ===> no_cuda=False
+2023-09-15 00:44:15 ===> batch_size=2
+2023-09-15 00:44:15 ===> start_epoch=199
+2023-09-15 00:44:15 ===> end_epochs=10
+2023-09-15 00:44:15 ===> save_freq=5
+2023-09-15 00:44:15 ===> resume=
+2023-09-15 00:44:15 ===> load=True
+2023-09-15 00:44:15 ===> model_name=U
+2023-09-15 00:44:15 ===> en_time=10
+2023-09-15 00:44:15 ===> OOD_Condition=normal
+2023-09-15 00:44:15 ===> OOD_Level=1
+2023-09-15 00:44:15 ===> use_TTA=False
+2023-09-15 00:44:15 ===> snapshot=True
+2023-09-15 00:44:15 ===> save_format=nii
+2023-09-15 00:44:15 ===> test_date=2023-01-01
+2023-09-15 00:44:15 ===> test_epoch=199
+2023-09-15 00:44:15 ===> n_skip=3
+2023-09-15 00:44:15 ===> vit_name=R50-ViT-B_16
+2023-09-15 00:44:15 ===> vit_patches_size=16
+2023-09-15 00:44:15 ===> train_file=pos_train_imgs.txt
+2023-09-15 00:44:15 ===> val_file=pos_val_imgs.txt
+2023-09-15 00:44:15 ===> test_file=pos_test_imgs.txt
+2023-09-15 00:44:15 ===> lambda_epochs=50
+2023-09-15 00:44:15 ===> Uncertainty_Loss=False
+2023-09-15 00:44:15 ===> save_dir=./results
+2023-09-15 00:44:15 ===> out_size=(128, 128, 128)
+2023-09-15 00:44:15 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 00:44:15 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 00:44:16 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:20 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:21 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:23 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:27 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:44:29 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:31 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:33 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:44:36 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:40 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:42 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:44:43 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:45 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:44:49 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:52 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:54 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:44:57 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:44:59 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:45:02 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:45:04 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:45:06 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:45:08 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:45:09 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:45:11 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:45:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:45:17 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 00:45:20 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:45:24 ===> Single sample test time consumption 0.09 seconds!
+2023-09-15 00:45:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:11:36 ===> re-training!!!
+2023-09-15 10:12:05 ===> ===========>Test begining!===========
+2023-09-15 10:12:05 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:12:05 ===> user=anissa
+2023-09-15 10:12:05 ===> experiment=UMIS
+2023-09-15 10:12:05 ===> date=2023-09-15
+2023-09-15 10:12:05 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:12:05 ===> mode=test
+2023-09-15 10:12:05 ===> dataset=autopet
+2023-09-15 10:12:05 ===> crop_H=128
+2023-09-15 10:12:05 ===> crop_W=128
+2023-09-15 10:12:05 ===> crop_D=128
+2023-09-15 10:12:05 ===> num_classes=2
+2023-09-15 10:12:05 ===> input_modality=petct
+2023-09-15 10:12:05 ===> folder=folder0
+2023-09-15 10:12:05 ===> input_C=4
+2023-09-15 10:12:05 ===> input_H=128
+2023-09-15 10:12:05 ===> input_W=128
+2023-09-15 10:12:05 ===> input_D=12
+2023-09-15 10:12:05 ===> output_D=155
+2023-09-15 10:12:05 ===> lr=0.0002
+2023-09-15 10:12:05 ===> weight_decay=1e-05
+2023-09-15 10:12:05 ===> submission=./results
+2023-09-15 10:12:05 ===> seed=1000
+2023-09-15 10:12:05 ===> no_cuda=False
+2023-09-15 10:12:05 ===> batch_size=2
+2023-09-15 10:12:05 ===> start_epoch=0
+2023-09-15 10:12:05 ===> end_epochs=10
+2023-09-15 10:12:05 ===> save_freq=5
+2023-09-15 10:12:05 ===> resume=
+2023-09-15 10:12:05 ===> load=True
+2023-09-15 10:12:05 ===> model_name=U
+2023-09-15 10:12:05 ===> en_time=10
+2023-09-15 10:12:05 ===> OOD_Condition=normal
+2023-09-15 10:12:05 ===> OOD_Level=1
+2023-09-15 10:12:05 ===> use_TTA=False
+2023-09-15 10:12:05 ===> snapshot=True
+2023-09-15 10:12:05 ===> save_format=nii
+2023-09-15 10:12:05 ===> test_date=2023-01-01
+2023-09-15 10:12:05 ===> test_epoch=199
+2023-09-15 10:12:05 ===> n_skip=3
+2023-09-15 10:12:05 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:12:05 ===> vit_patches_size=16
+2023-09-15 10:12:05 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:12:05 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:12:05 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:12:05 ===> lambda_epochs=50
+2023-09-15 10:12:05 ===> Uncertainty_Loss=False
+2023-09-15 10:12:05 ===> save_dir=./results
+2023-09-15 10:12:05 ===> out_size=(128, 128, 128)
+2023-09-15 10:12:05 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:12:05 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:12:27 ===> ===========>Test begining!===========
+2023-09-15 10:12:27 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:12:27 ===> user=anissa
+2023-09-15 10:12:27 ===> experiment=UMIS
+2023-09-15 10:12:27 ===> date=2023-09-15
+2023-09-15 10:12:27 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:12:27 ===> mode=test
+2023-09-15 10:12:27 ===> dataset=autopet
+2023-09-15 10:12:27 ===> crop_H=128
+2023-09-15 10:12:27 ===> crop_W=128
+2023-09-15 10:12:27 ===> crop_D=128
+2023-09-15 10:12:27 ===> num_classes=2
+2023-09-15 10:12:27 ===> input_modality=petct
+2023-09-15 10:12:27 ===> folder=folder0
+2023-09-15 10:12:27 ===> input_C=4
+2023-09-15 10:12:27 ===> input_H=128
+2023-09-15 10:12:27 ===> input_W=128
+2023-09-15 10:12:27 ===> input_D=12
+2023-09-15 10:12:27 ===> output_D=155
+2023-09-15 10:12:27 ===> lr=0.0002
+2023-09-15 10:12:27 ===> weight_decay=1e-05
+2023-09-15 10:12:27 ===> submission=./results
+2023-09-15 10:12:27 ===> seed=1000
+2023-09-15 10:12:27 ===> no_cuda=False
+2023-09-15 10:12:27 ===> batch_size=2
+2023-09-15 10:12:27 ===> start_epoch=0
+2023-09-15 10:12:27 ===> end_epochs=10
+2023-09-15 10:12:27 ===> save_freq=5
+2023-09-15 10:12:27 ===> resume=
+2023-09-15 10:12:27 ===> load=True
+2023-09-15 10:12:27 ===> model_name=U
+2023-09-15 10:12:27 ===> en_time=10
+2023-09-15 10:12:27 ===> OOD_Condition=normal
+2023-09-15 10:12:27 ===> OOD_Level=1
+2023-09-15 10:12:27 ===> use_TTA=False
+2023-09-15 10:12:27 ===> snapshot=True
+2023-09-15 10:12:27 ===> save_format=nii
+2023-09-15 10:12:27 ===> test_date=2023-01-01
+2023-09-15 10:12:27 ===> test_epoch=199
+2023-09-15 10:12:27 ===> n_skip=3
+2023-09-15 10:12:27 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:12:27 ===> vit_patches_size=16
+2023-09-15 10:12:27 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:12:27 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:12:27 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:12:27 ===> lambda_epochs=50
+2023-09-15 10:12:27 ===> Uncertainty_Loss=False
+2023-09-15 10:12:27 ===> save_dir=./results
+2023-09-15 10:12:27 ===> out_size=(128, 128, 128)
+2023-09-15 10:12:27 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:12:27 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:12:35 ===> Single sample test time consumption 7.03 seconds!
+2023-09-15 10:12:37 ===> Importing BlpImagePlugin
+2023-09-15 10:12:37 ===> Importing BmpImagePlugin
+2023-09-15 10:12:37 ===> Importing BufrStubImagePlugin
+2023-09-15 10:12:37 ===> Importing CurImagePlugin
+2023-09-15 10:12:37 ===> Importing DcxImagePlugin
+2023-09-15 10:12:37 ===> Importing DdsImagePlugin
+2023-09-15 10:12:37 ===> Importing EpsImagePlugin
+2023-09-15 10:12:37 ===> Importing FitsImagePlugin
+2023-09-15 10:12:37 ===> Importing FitsStubImagePlugin
+2023-09-15 10:12:37 ===> Importing FliImagePlugin
+2023-09-15 10:12:37 ===> Importing FpxImagePlugin
+2023-09-15 10:12:37 ===> Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-09-15 10:12:37 ===> Importing FtexImagePlugin
+2023-09-15 10:12:37 ===> Importing GbrImagePlugin
+2023-09-15 10:12:37 ===> Importing GifImagePlugin
+2023-09-15 10:12:37 ===> Importing GribStubImagePlugin
+2023-09-15 10:12:37 ===> Importing Hdf5StubImagePlugin
+2023-09-15 10:12:37 ===> Importing IcnsImagePlugin
+2023-09-15 10:12:37 ===> Importing IcoImagePlugin
+2023-09-15 10:12:37 ===> Importing ImImagePlugin
+2023-09-15 10:12:37 ===> Importing ImtImagePlugin
+2023-09-15 10:12:37 ===> Importing IptcImagePlugin
+2023-09-15 10:12:37 ===> Importing JpegImagePlugin
+2023-09-15 10:12:37 ===> Importing Jpeg2KImagePlugin
+2023-09-15 10:12:37 ===> Importing McIdasImagePlugin
+2023-09-15 10:12:37 ===> Importing MicImagePlugin
+2023-09-15 10:12:37 ===> Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-09-15 10:12:37 ===> Importing MpegImagePlugin
+2023-09-15 10:12:37 ===> Importing MpoImagePlugin
+2023-09-15 10:12:37 ===> Importing MspImagePlugin
+2023-09-15 10:12:37 ===> Importing PalmImagePlugin
+2023-09-15 10:12:37 ===> Importing PcdImagePlugin
+2023-09-15 10:12:37 ===> Importing PcxImagePlugin
+2023-09-15 10:12:37 ===> Importing PdfImagePlugin
+2023-09-15 10:12:37 ===> Importing PixarImagePlugin
+2023-09-15 10:12:37 ===> Importing PngImagePlugin
+2023-09-15 10:12:37 ===> Importing PpmImagePlugin
+2023-09-15 10:12:37 ===> Importing PsdImagePlugin
+2023-09-15 10:12:37 ===> Importing QoiImagePlugin
+2023-09-15 10:12:37 ===> Importing SgiImagePlugin
+2023-09-15 10:12:37 ===> Importing SpiderImagePlugin
+2023-09-15 10:12:37 ===> Importing SunImagePlugin
+2023-09-15 10:12:37 ===> Importing TgaImagePlugin
+2023-09-15 10:12:37 ===> Importing TiffImagePlugin
+2023-09-15 10:12:37 ===> Importing WebPImagePlugin
+2023-09-15 10:12:37 ===> Importing WmfImagePlugin
+2023-09-15 10:12:37 ===> Importing XbmImagePlugin
+2023-09-15 10:12:37 ===> Importing XpmImagePlugin
+2023-09-15 10:12:37 ===> Importing XVThumbImagePlugin
+2023-09-15 10:12:38 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:12:42 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:12:44 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:12:48 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:15:06 ===> ===========>Test begining!===========
+2023-09-15 10:15:06 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:15:06 ===> user=anissa
+2023-09-15 10:15:06 ===> experiment=UMIS
+2023-09-15 10:15:06 ===> date=2023-09-15
+2023-09-15 10:15:06 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:15:06 ===> mode=test
+2023-09-15 10:15:06 ===> dataset=autopet
+2023-09-15 10:15:06 ===> crop_H=128
+2023-09-15 10:15:06 ===> crop_W=128
+2023-09-15 10:15:06 ===> crop_D=128
+2023-09-15 10:15:06 ===> num_classes=2
+2023-09-15 10:15:06 ===> input_modality=petct
+2023-09-15 10:15:06 ===> folder=folder0
+2023-09-15 10:15:06 ===> input_C=4
+2023-09-15 10:15:06 ===> input_H=128
+2023-09-15 10:15:06 ===> input_W=128
+2023-09-15 10:15:06 ===> input_D=12
+2023-09-15 10:15:06 ===> output_D=155
+2023-09-15 10:15:06 ===> lr=0.0002
+2023-09-15 10:15:06 ===> weight_decay=1e-05
+2023-09-15 10:15:06 ===> submission=./results
+2023-09-15 10:15:06 ===> seed=1000
+2023-09-15 10:15:06 ===> no_cuda=False
+2023-09-15 10:15:06 ===> batch_size=2
+2023-09-15 10:15:06 ===> start_epoch=199
+2023-09-15 10:15:06 ===> end_epochs=10
+2023-09-15 10:15:06 ===> save_freq=5
+2023-09-15 10:15:06 ===> resume=
+2023-09-15 10:15:06 ===> load=True
+2023-09-15 10:15:06 ===> model_name=U
+2023-09-15 10:15:06 ===> en_time=10
+2023-09-15 10:15:06 ===> OOD_Condition=normal
+2023-09-15 10:15:06 ===> OOD_Level=1
+2023-09-15 10:15:06 ===> use_TTA=False
+2023-09-15 10:15:06 ===> snapshot=True
+2023-09-15 10:15:06 ===> save_format=nii
+2023-09-15 10:15:06 ===> test_date=2023-01-01
+2023-09-15 10:15:06 ===> test_epoch=199
+2023-09-15 10:15:06 ===> n_skip=3
+2023-09-15 10:15:06 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:15:06 ===> vit_patches_size=16
+2023-09-15 10:15:06 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:15:06 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:15:06 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:15:06 ===> lambda_epochs=50
+2023-09-15 10:15:06 ===> Uncertainty_Loss=False
+2023-09-15 10:15:06 ===> save_dir=./results
+2023-09-15 10:15:06 ===> out_size=(128, 128, 128)
+2023-09-15 10:15:06 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:15:06 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:15:32 ===> ===========>Test begining!===========
+2023-09-15 10:15:32 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:15:32 ===> user=anissa
+2023-09-15 10:15:32 ===> experiment=UMIS
+2023-09-15 10:15:32 ===> date=2023-09-15
+2023-09-15 10:15:32 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:15:32 ===> mode=test
+2023-09-15 10:15:32 ===> dataset=autopet
+2023-09-15 10:15:32 ===> crop_H=128
+2023-09-15 10:15:32 ===> crop_W=128
+2023-09-15 10:15:32 ===> crop_D=128
+2023-09-15 10:15:32 ===> num_classes=2
+2023-09-15 10:15:32 ===> input_modality=petct
+2023-09-15 10:15:32 ===> folder=folder0
+2023-09-15 10:15:32 ===> input_C=4
+2023-09-15 10:15:32 ===> input_H=128
+2023-09-15 10:15:32 ===> input_W=128
+2023-09-15 10:15:32 ===> input_D=12
+2023-09-15 10:15:32 ===> output_D=155
+2023-09-15 10:15:32 ===> lr=0.0002
+2023-09-15 10:15:32 ===> weight_decay=1e-05
+2023-09-15 10:15:32 ===> submission=./results
+2023-09-15 10:15:32 ===> seed=1000
+2023-09-15 10:15:32 ===> no_cuda=False
+2023-09-15 10:15:32 ===> batch_size=2
+2023-09-15 10:15:32 ===> start_epoch=199
+2023-09-15 10:15:32 ===> end_epochs=10
+2023-09-15 10:15:32 ===> save_freq=5
+2023-09-15 10:15:32 ===> resume=
+2023-09-15 10:15:32 ===> load=True
+2023-09-15 10:15:32 ===> model_name=U
+2023-09-15 10:15:32 ===> en_time=10
+2023-09-15 10:15:32 ===> OOD_Condition=normal
+2023-09-15 10:15:32 ===> OOD_Level=1
+2023-09-15 10:15:32 ===> use_TTA=False
+2023-09-15 10:15:32 ===> snapshot=True
+2023-09-15 10:15:32 ===> save_format=nii
+2023-09-15 10:15:32 ===> test_date=2023-01-01
+2023-09-15 10:15:32 ===> test_epoch=199
+2023-09-15 10:15:32 ===> n_skip=3
+2023-09-15 10:15:32 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:15:32 ===> vit_patches_size=16
+2023-09-15 10:15:32 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:15:32 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:15:32 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:15:32 ===> lambda_epochs=50
+2023-09-15 10:15:32 ===> Uncertainty_Loss=False
+2023-09-15 10:15:32 ===> save_dir=./results
+2023-09-15 10:15:32 ===> out_size=(128, 128, 128)
+2023-09-15 10:15:32 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:15:32 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:15:41 ===> ===========>Test begining!===========
+2023-09-15 10:15:41 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:15:41 ===> user=anissa
+2023-09-15 10:15:41 ===> experiment=UMIS
+2023-09-15 10:15:41 ===> date=2023-09-15
+2023-09-15 10:15:41 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:15:41 ===> mode=test
+2023-09-15 10:15:41 ===> dataset=autopet
+2023-09-15 10:15:41 ===> crop_H=128
+2023-09-15 10:15:41 ===> crop_W=128
+2023-09-15 10:15:41 ===> crop_D=128
+2023-09-15 10:15:41 ===> num_classes=2
+2023-09-15 10:15:41 ===> input_modality=petct
+2023-09-15 10:15:41 ===> folder=folder0
+2023-09-15 10:15:41 ===> input_C=4
+2023-09-15 10:15:41 ===> input_H=128
+2023-09-15 10:15:41 ===> input_W=128
+2023-09-15 10:15:41 ===> input_D=12
+2023-09-15 10:15:41 ===> output_D=155
+2023-09-15 10:15:41 ===> lr=0.0002
+2023-09-15 10:15:41 ===> weight_decay=1e-05
+2023-09-15 10:15:41 ===> submission=./results
+2023-09-15 10:15:41 ===> seed=1000
+2023-09-15 10:15:41 ===> no_cuda=False
+2023-09-15 10:15:41 ===> batch_size=2
+2023-09-15 10:15:41 ===> start_epoch=199
+2023-09-15 10:15:41 ===> end_epochs=10
+2023-09-15 10:15:41 ===> save_freq=5
+2023-09-15 10:15:41 ===> resume=
+2023-09-15 10:15:41 ===> load=True
+2023-09-15 10:15:41 ===> model_name=U
+2023-09-15 10:15:41 ===> en_time=10
+2023-09-15 10:15:41 ===> OOD_Condition=normal
+2023-09-15 10:15:41 ===> OOD_Level=1
+2023-09-15 10:15:41 ===> use_TTA=False
+2023-09-15 10:15:41 ===> snapshot=True
+2023-09-15 10:15:41 ===> save_format=nii
+2023-09-15 10:15:41 ===> test_date=2023-01-01
+2023-09-15 10:15:41 ===> test_epoch=199
+2023-09-15 10:15:41 ===> n_skip=3
+2023-09-15 10:15:41 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:15:41 ===> vit_patches_size=16
+2023-09-15 10:15:41 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:15:41 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:15:41 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:15:41 ===> lambda_epochs=50
+2023-09-15 10:15:41 ===> Uncertainty_Loss=False
+2023-09-15 10:15:41 ===> save_dir=./results
+2023-09-15 10:15:41 ===> out_size=(128, 128, 128)
+2023-09-15 10:15:41 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:15:41 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:15:42 ===> Single sample test time consumption 0.27 seconds!
+2023-09-15 10:15:44 ===> Single sample test time consumption 0.25 seconds!
+2023-09-15 10:15:49 ===> Single sample test time consumption 0.17 seconds!
+2023-09-15 10:15:53 ===> Single sample test time consumption 0.27 seconds!
+2023-09-15 10:15:56 ===> Single sample test time consumption 0.16 seconds!
+2023-09-15 10:15:58 ===> Single sample test time consumption 0.27 seconds!
+2023-09-15 10:18:47 ===> Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2023-09-15 10:18:47 ===> Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2023-09-15 10:18:47 ===> findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/stix/STIXMath-Regular.otf', name='STIX Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/stix/STIX-BoldItalic.otf', name='STIX', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/stix/STIX-Bold.otf', name='STIX', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/stix/STIX-Italic.otf', name='STIX', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/stix/STIX-Regular.otf', name='STIX', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2023-09-15 10:18:47 ===> findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2023-09-15 10:18:47 ===> findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/gpfs3/well/papiez/users/hri611/python/env1-skylake/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2023-09-15 10:18:47 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8efc3cee90>
+2023-09-15 10:19:44 ===> Loaded backend agg version v2.2.
+2023-09-15 10:19:44 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef1584be0>
+2023-09-15 10:19:53 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef041d960>
+2023-09-15 10:19:56 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef15f7dc0>
+2023-09-15 10:20:16 ===> Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2023-09-15 10:20:16 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8efc408c70>
+2023-09-15 10:20:20 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef3681db0>
+2023-09-15 10:20:27 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef04f0a60>
+2023-09-15 10:20:30 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef038ffa0>
+2023-09-15 10:20:34 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef026f760>
+2023-09-15 10:20:37 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ef01873d0>
+2023-09-15 10:27:44 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec7c1ba0>
+2023-09-15 10:27:52 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec633e50> <matplotlib.colors.Normalize object at 0x7f8eec633e50>
+2023-09-15 10:27:52 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec650c10>
+2023-09-15 10:27:52 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec633e50> <matplotlib.colors.Normalize object at 0x7f8eec633e50>
+2023-09-15 10:27:52 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec650c10>
+2023-09-15 10:27:52 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec650df0>
+2023-09-15 10:28:10 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec6cb880> <matplotlib.colors.Normalize object at 0x7f8eec6cb880>
+2023-09-15 10:28:10 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec6e06a0>
+2023-09-15 10:28:10 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec6cb880> <matplotlib.colors.Normalize object at 0x7f8eec6cb880>
+2023-09-15 10:28:10 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec6e06a0>
+2023-09-15 10:28:10 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec6e0880>
+2023-09-15 10:28:56 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec57b430> <matplotlib.colors.Normalize object at 0x7f8eec57b430>
+2023-09-15 10:28:56 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec59c250>
+2023-09-15 10:28:56 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec57b430> <matplotlib.colors.Normalize object at 0x7f8eec57b430>
+2023-09-15 10:28:56 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec59c250>
+2023-09-15 10:28:56 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec507f10>
+2023-09-15 10:29:14 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec437f70>
+2023-09-15 10:29:30 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec3257b0>
+2023-09-15 10:29:37 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec3e66e0> <matplotlib.colors.Normalize object at 0x7f8eec3e66e0>
+2023-09-15 10:29:37 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec3e74c0>
+2023-09-15 10:29:37 ===> colorbar update normal <matplotlib.colors.Normalize object at 0x7f8eec3e66e0> <matplotlib.colors.Normalize object at 0x7f8eec3e66e0>
+2023-09-15 10:29:37 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec3e74c0>
+2023-09-15 10:29:37 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec3e76a0>
+2023-09-15 10:29:40 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec2ecb80>
+2023-09-15 10:31:30 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec19bc70>
+2023-09-15 10:31:35 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ecbf777c0>
+2023-09-15 10:33:10 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ecbe521a0>
+2023-09-15 10:33:39 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ecbd29780>
+2023-09-15 10:49:13 ===> ===========>Test begining!===========
+2023-09-15 10:49:13 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:49:13 ===> user=anissa
+2023-09-15 10:49:13 ===> experiment=UMIS
+2023-09-15 10:49:13 ===> date=2023-09-15
+2023-09-15 10:49:13 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:49:13 ===> mode=test
+2023-09-15 10:49:13 ===> dataset=autopet
+2023-09-15 10:49:13 ===> crop_H=128
+2023-09-15 10:49:13 ===> crop_W=128
+2023-09-15 10:49:13 ===> crop_D=128
+2023-09-15 10:49:13 ===> num_classes=2
+2023-09-15 10:49:13 ===> input_modality=petct
+2023-09-15 10:49:13 ===> folder=folder0
+2023-09-15 10:49:13 ===> input_C=4
+2023-09-15 10:49:13 ===> input_H=128
+2023-09-15 10:49:13 ===> input_W=128
+2023-09-15 10:49:13 ===> input_D=12
+2023-09-15 10:49:13 ===> output_D=155
+2023-09-15 10:49:13 ===> lr=0.0002
+2023-09-15 10:49:13 ===> weight_decay=1e-05
+2023-09-15 10:49:13 ===> submission=./results
+2023-09-15 10:49:13 ===> seed=1000
+2023-09-15 10:49:13 ===> no_cuda=False
+2023-09-15 10:49:13 ===> batch_size=2
+2023-09-15 10:49:13 ===> start_epoch=199
+2023-09-15 10:49:13 ===> end_epochs=10
+2023-09-15 10:49:13 ===> save_freq=5
+2023-09-15 10:49:13 ===> resume=
+2023-09-15 10:49:13 ===> load=True
+2023-09-15 10:49:13 ===> model_name=U
+2023-09-15 10:49:13 ===> en_time=10
+2023-09-15 10:49:13 ===> OOD_Condition=normal
+2023-09-15 10:49:13 ===> OOD_Level=1
+2023-09-15 10:49:13 ===> use_TTA=False
+2023-09-15 10:49:13 ===> snapshot=True
+2023-09-15 10:49:13 ===> save_format=nii
+2023-09-15 10:49:13 ===> test_date=2023-01-01
+2023-09-15 10:49:13 ===> test_epoch=199
+2023-09-15 10:49:13 ===> n_skip=3
+2023-09-15 10:49:13 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:49:13 ===> vit_patches_size=16
+2023-09-15 10:49:13 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:49:13 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:49:13 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:49:13 ===> lambda_epochs=50
+2023-09-15 10:49:13 ===> Uncertainty_Loss=False
+2023-09-15 10:49:13 ===> save_dir=./results
+2023-09-15 10:49:13 ===> out_size=(128, 128, 128)
+2023-09-15 10:49:13 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:49:13 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:49:14 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:50:08 ===> ===========>Test begining!===========
+2023-09-15 10:50:08 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:50:08 ===> user=anissa
+2023-09-15 10:50:08 ===> experiment=UMIS
+2023-09-15 10:50:08 ===> date=2023-09-15
+2023-09-15 10:50:08 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:50:08 ===> mode=test
+2023-09-15 10:50:08 ===> dataset=autopet
+2023-09-15 10:50:08 ===> crop_H=128
+2023-09-15 10:50:08 ===> crop_W=128
+2023-09-15 10:50:08 ===> crop_D=128
+2023-09-15 10:50:08 ===> num_classes=2
+2023-09-15 10:50:08 ===> input_modality=petct
+2023-09-15 10:50:08 ===> folder=folder0
+2023-09-15 10:50:08 ===> input_C=4
+2023-09-15 10:50:08 ===> input_H=128
+2023-09-15 10:50:08 ===> input_W=128
+2023-09-15 10:50:08 ===> input_D=12
+2023-09-15 10:50:08 ===> output_D=155
+2023-09-15 10:50:08 ===> lr=0.0002
+2023-09-15 10:50:08 ===> weight_decay=1e-05
+2023-09-15 10:50:08 ===> submission=./results
+2023-09-15 10:50:08 ===> seed=1000
+2023-09-15 10:50:08 ===> no_cuda=False
+2023-09-15 10:50:08 ===> batch_size=2
+2023-09-15 10:50:08 ===> start_epoch=199
+2023-09-15 10:50:08 ===> end_epochs=10
+2023-09-15 10:50:08 ===> save_freq=5
+2023-09-15 10:50:08 ===> resume=
+2023-09-15 10:50:08 ===> load=True
+2023-09-15 10:50:08 ===> model_name=U
+2023-09-15 10:50:08 ===> en_time=10
+2023-09-15 10:50:08 ===> OOD_Condition=normal
+2023-09-15 10:50:08 ===> OOD_Level=1
+2023-09-15 10:50:08 ===> use_TTA=False
+2023-09-15 10:50:08 ===> snapshot=True
+2023-09-15 10:50:08 ===> save_format=nii
+2023-09-15 10:50:08 ===> test_date=2023-01-01
+2023-09-15 10:50:08 ===> test_epoch=199
+2023-09-15 10:50:08 ===> n_skip=3
+2023-09-15 10:50:08 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:50:08 ===> vit_patches_size=16
+2023-09-15 10:50:08 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:50:08 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:50:08 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:50:08 ===> lambda_epochs=50
+2023-09-15 10:50:08 ===> Uncertainty_Loss=False
+2023-09-15 10:50:08 ===> save_dir=./results
+2023-09-15 10:50:08 ===> out_size=(128, 128, 128)
+2023-09-15 10:50:08 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:50:08 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:50:09 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:50:42 ===> ===========>Test begining!===========
+2023-09-15 10:50:42 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:50:42 ===> user=anissa
+2023-09-15 10:50:42 ===> experiment=UMIS
+2023-09-15 10:50:42 ===> date=2023-09-15
+2023-09-15 10:50:42 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:50:42 ===> mode=test
+2023-09-15 10:50:42 ===> dataset=autopet
+2023-09-15 10:50:42 ===> crop_H=128
+2023-09-15 10:50:42 ===> crop_W=128
+2023-09-15 10:50:42 ===> crop_D=128
+2023-09-15 10:50:42 ===> num_classes=2
+2023-09-15 10:50:42 ===> input_modality=petct
+2023-09-15 10:50:42 ===> folder=folder0
+2023-09-15 10:50:42 ===> input_C=4
+2023-09-15 10:50:42 ===> input_H=128
+2023-09-15 10:50:42 ===> input_W=128
+2023-09-15 10:50:42 ===> input_D=12
+2023-09-15 10:50:42 ===> output_D=155
+2023-09-15 10:50:42 ===> lr=0.0002
+2023-09-15 10:50:42 ===> weight_decay=1e-05
+2023-09-15 10:50:42 ===> submission=./results
+2023-09-15 10:50:42 ===> seed=1000
+2023-09-15 10:50:42 ===> no_cuda=False
+2023-09-15 10:50:42 ===> batch_size=2
+2023-09-15 10:50:42 ===> start_epoch=199
+2023-09-15 10:50:42 ===> end_epochs=10
+2023-09-15 10:50:42 ===> save_freq=5
+2023-09-15 10:50:42 ===> resume=
+2023-09-15 10:50:42 ===> load=True
+2023-09-15 10:50:42 ===> model_name=U
+2023-09-15 10:50:42 ===> en_time=10
+2023-09-15 10:50:42 ===> OOD_Condition=normal
+2023-09-15 10:50:42 ===> OOD_Level=1
+2023-09-15 10:50:42 ===> use_TTA=False
+2023-09-15 10:50:42 ===> snapshot=True
+2023-09-15 10:50:42 ===> save_format=nii
+2023-09-15 10:50:42 ===> test_date=2023-01-01
+2023-09-15 10:50:42 ===> test_epoch=199
+2023-09-15 10:50:42 ===> n_skip=3
+2023-09-15 10:50:42 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:50:42 ===> vit_patches_size=16
+2023-09-15 10:50:42 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:50:42 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:50:42 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:50:42 ===> lambda_epochs=50
+2023-09-15 10:50:42 ===> Uncertainty_Loss=False
+2023-09-15 10:50:42 ===> save_dir=./results
+2023-09-15 10:50:42 ===> out_size=(128, 128, 128)
+2023-09-15 10:50:42 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:50:42 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:50:42 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:51:44 ===> ===========>Test begining!===========
+2023-09-15 10:51:44 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:51:44 ===> user=anissa
+2023-09-15 10:51:44 ===> experiment=UMIS
+2023-09-15 10:51:44 ===> date=2023-09-15
+2023-09-15 10:51:44 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:51:44 ===> mode=test
+2023-09-15 10:51:44 ===> dataset=autopet
+2023-09-15 10:51:44 ===> crop_H=128
+2023-09-15 10:51:44 ===> crop_W=128
+2023-09-15 10:51:44 ===> crop_D=128
+2023-09-15 10:51:44 ===> num_classes=2
+2023-09-15 10:51:44 ===> input_modality=petct
+2023-09-15 10:51:44 ===> folder=folder0
+2023-09-15 10:51:44 ===> input_C=4
+2023-09-15 10:51:44 ===> input_H=128
+2023-09-15 10:51:44 ===> input_W=128
+2023-09-15 10:51:44 ===> input_D=12
+2023-09-15 10:51:44 ===> output_D=155
+2023-09-15 10:51:44 ===> lr=0.0002
+2023-09-15 10:51:44 ===> weight_decay=1e-05
+2023-09-15 10:51:44 ===> submission=./results
+2023-09-15 10:51:44 ===> seed=1000
+2023-09-15 10:51:44 ===> no_cuda=False
+2023-09-15 10:51:44 ===> batch_size=2
+2023-09-15 10:51:44 ===> start_epoch=199
+2023-09-15 10:51:44 ===> end_epochs=10
+2023-09-15 10:51:44 ===> save_freq=5
+2023-09-15 10:51:44 ===> resume=
+2023-09-15 10:51:44 ===> load=True
+2023-09-15 10:51:44 ===> model_name=U
+2023-09-15 10:51:44 ===> en_time=10
+2023-09-15 10:51:44 ===> OOD_Condition=normal
+2023-09-15 10:51:44 ===> OOD_Level=1
+2023-09-15 10:51:44 ===> use_TTA=False
+2023-09-15 10:51:44 ===> snapshot=True
+2023-09-15 10:51:44 ===> save_format=nii
+2023-09-15 10:51:44 ===> test_date=2023-01-01
+2023-09-15 10:51:44 ===> test_epoch=199
+2023-09-15 10:51:44 ===> n_skip=3
+2023-09-15 10:51:44 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:51:44 ===> vit_patches_size=16
+2023-09-15 10:51:44 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:51:44 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:51:44 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:51:44 ===> lambda_epochs=50
+2023-09-15 10:51:44 ===> Uncertainty_Loss=False
+2023-09-15 10:51:44 ===> save_dir=./results
+2023-09-15 10:51:44 ===> out_size=(128, 128, 128)
+2023-09-15 10:51:44 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:51:44 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:51:46 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:52:00 ===> ===========>Test begining!===========
+2023-09-15 10:52:00 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:52:00 ===> user=anissa
+2023-09-15 10:52:00 ===> experiment=UMIS
+2023-09-15 10:52:00 ===> date=2023-09-15
+2023-09-15 10:52:00 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:52:00 ===> mode=test
+2023-09-15 10:52:00 ===> dataset=autopet
+2023-09-15 10:52:00 ===> crop_H=128
+2023-09-15 10:52:00 ===> crop_W=128
+2023-09-15 10:52:00 ===> crop_D=128
+2023-09-15 10:52:00 ===> num_classes=2
+2023-09-15 10:52:00 ===> input_modality=petct
+2023-09-15 10:52:00 ===> folder=folder0
+2023-09-15 10:52:00 ===> input_C=4
+2023-09-15 10:52:00 ===> input_H=128
+2023-09-15 10:52:00 ===> input_W=128
+2023-09-15 10:52:00 ===> input_D=12
+2023-09-15 10:52:00 ===> output_D=155
+2023-09-15 10:52:00 ===> lr=0.0002
+2023-09-15 10:52:00 ===> weight_decay=1e-05
+2023-09-15 10:52:00 ===> submission=./results
+2023-09-15 10:52:00 ===> seed=1000
+2023-09-15 10:52:00 ===> no_cuda=False
+2023-09-15 10:52:00 ===> batch_size=2
+2023-09-15 10:52:00 ===> start_epoch=199
+2023-09-15 10:52:00 ===> end_epochs=10
+2023-09-15 10:52:00 ===> save_freq=5
+2023-09-15 10:52:00 ===> resume=
+2023-09-15 10:52:00 ===> load=True
+2023-09-15 10:52:00 ===> model_name=U
+2023-09-15 10:52:00 ===> en_time=10
+2023-09-15 10:52:00 ===> OOD_Condition=normal
+2023-09-15 10:52:00 ===> OOD_Level=1
+2023-09-15 10:52:00 ===> use_TTA=False
+2023-09-15 10:52:00 ===> snapshot=True
+2023-09-15 10:52:00 ===> save_format=nii
+2023-09-15 10:52:00 ===> test_date=2023-01-01
+2023-09-15 10:52:00 ===> test_epoch=199
+2023-09-15 10:52:00 ===> n_skip=3
+2023-09-15 10:52:00 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:52:00 ===> vit_patches_size=16
+2023-09-15 10:52:00 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:52:00 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:52:00 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:52:00 ===> lambda_epochs=50
+2023-09-15 10:52:00 ===> Uncertainty_Loss=False
+2023-09-15 10:52:00 ===> save_dir=./results
+2023-09-15 10:52:00 ===> out_size=(128, 128, 128)
+2023-09-15 10:52:00 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:52:00 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:52:01 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:52:07 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:10 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:16 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:52:19 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:22 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:28 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:31 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:34 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:52:38 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:41 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:43 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:49 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:52:53 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:56 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:52:58 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:01 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:04 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:10 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:16 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:19 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:21 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:24 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:27 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:29 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:34 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:53:37 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:44 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:46 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:49 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:54 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:53:59 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:05 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:54:07 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:12 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:15 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:18 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:23 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:54:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:31 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:36 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:38 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:54:44 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:57:33 ===> ===========>Test begining!===========
+2023-09-15 10:57:33 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 10:57:33 ===> user=anissa
+2023-09-15 10:57:33 ===> experiment=UMIS
+2023-09-15 10:57:33 ===> date=2023-09-15
+2023-09-15 10:57:33 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:57:33 ===> mode=test
+2023-09-15 10:57:33 ===> dataset=autopet
+2023-09-15 10:57:33 ===> crop_H=128
+2023-09-15 10:57:33 ===> crop_W=128
+2023-09-15 10:57:33 ===> crop_D=128
+2023-09-15 10:57:33 ===> num_classes=2
+2023-09-15 10:57:33 ===> input_modality=petct
+2023-09-15 10:57:33 ===> folder=folder0
+2023-09-15 10:57:33 ===> input_C=4
+2023-09-15 10:57:33 ===> input_H=128
+2023-09-15 10:57:33 ===> input_W=128
+2023-09-15 10:57:33 ===> input_D=12
+2023-09-15 10:57:33 ===> output_D=155
+2023-09-15 10:57:33 ===> lr=0.0002
+2023-09-15 10:57:33 ===> weight_decay=1e-05
+2023-09-15 10:57:33 ===> submission=./results
+2023-09-15 10:57:33 ===> seed=1000
+2023-09-15 10:57:33 ===> no_cuda=False
+2023-09-15 10:57:33 ===> batch_size=2
+2023-09-15 10:57:33 ===> start_epoch=199
+2023-09-15 10:57:33 ===> end_epochs=10
+2023-09-15 10:57:33 ===> save_freq=5
+2023-09-15 10:57:33 ===> resume=
+2023-09-15 10:57:33 ===> load=True
+2023-09-15 10:57:33 ===> model_name=U
+2023-09-15 10:57:33 ===> en_time=10
+2023-09-15 10:57:33 ===> OOD_Condition=normal
+2023-09-15 10:57:33 ===> OOD_Level=1
+2023-09-15 10:57:33 ===> use_TTA=False
+2023-09-15 10:57:33 ===> snapshot=True
+2023-09-15 10:57:33 ===> save_format=nii
+2023-09-15 10:57:33 ===> test_date=2023-01-01
+2023-09-15 10:57:33 ===> test_epoch=199
+2023-09-15 10:57:33 ===> n_skip=3
+2023-09-15 10:57:33 ===> vit_name=R50-ViT-B_16
+2023-09-15 10:57:33 ===> vit_patches_size=16
+2023-09-15 10:57:33 ===> train_file=pos_train_imgs.txt
+2023-09-15 10:57:33 ===> val_file=pos_val_imgs.txt
+2023-09-15 10:57:33 ===> test_file=pos_test_imgs.txt
+2023-09-15 10:57:33 ===> lambda_epochs=50
+2023-09-15 10:57:33 ===> Uncertainty_Loss=False
+2023-09-15 10:57:33 ===> save_dir=./results
+2023-09-15 10:57:33 ===> out_size=(128, 128, 128)
+2023-09-15 10:57:33 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 10:57:33 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 10:57:34 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:57:36 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:57:38 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 10:57:41 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 10:57:58 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ecbefa950>
+2023-09-15 11:00:05 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8ecbf4da20>
+2023-09-15 11:02:54 ===> locator: <matplotlib.ticker.AutoLocator object at 0x7f8eec271e40>
+2023-09-15 11:35:48 ===> ===========>Test begining!===========
+2023-09-15 11:35:48 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 11:35:48 ===> user=anissa
+2023-09-15 11:35:48 ===> experiment=UMIS
+2023-09-15 11:35:48 ===> date=2023-09-15
+2023-09-15 11:35:48 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:35:48 ===> mode=test
+2023-09-15 11:35:48 ===> dataset=autopet
+2023-09-15 11:35:48 ===> crop_H=128
+2023-09-15 11:35:48 ===> crop_W=128
+2023-09-15 11:35:48 ===> crop_D=128
+2023-09-15 11:35:48 ===> num_classes=2
+2023-09-15 11:35:48 ===> input_modality=petct
+2023-09-15 11:35:48 ===> folder=folder0
+2023-09-15 11:35:48 ===> input_C=4
+2023-09-15 11:35:48 ===> input_H=128
+2023-09-15 11:35:48 ===> input_W=128
+2023-09-15 11:35:48 ===> input_D=12
+2023-09-15 11:35:48 ===> output_D=155
+2023-09-15 11:35:48 ===> lr=0.0002
+2023-09-15 11:35:48 ===> weight_decay=1e-05
+2023-09-15 11:35:48 ===> submission=./results
+2023-09-15 11:35:48 ===> seed=1000
+2023-09-15 11:35:48 ===> no_cuda=False
+2023-09-15 11:35:48 ===> batch_size=2
+2023-09-15 11:35:48 ===> start_epoch=199
+2023-09-15 11:35:48 ===> end_epochs=10
+2023-09-15 11:35:48 ===> save_freq=5
+2023-09-15 11:35:48 ===> resume=
+2023-09-15 11:35:48 ===> load=True
+2023-09-15 11:35:48 ===> model_name=U
+2023-09-15 11:35:48 ===> en_time=10
+2023-09-15 11:35:48 ===> OOD_Condition=normal
+2023-09-15 11:35:48 ===> OOD_Level=1
+2023-09-15 11:35:48 ===> use_TTA=False
+2023-09-15 11:35:48 ===> snapshot=True
+2023-09-15 11:35:48 ===> save_format=nii
+2023-09-15 11:35:48 ===> test_date=2023-01-01
+2023-09-15 11:35:48 ===> test_epoch=199
+2023-09-15 11:35:48 ===> n_skip=3
+2023-09-15 11:35:48 ===> vit_name=R50-ViT-B_16
+2023-09-15 11:35:48 ===> vit_patches_size=16
+2023-09-15 11:35:48 ===> train_file=pos_train_imgs.txt
+2023-09-15 11:35:48 ===> val_file=pos_val_imgs.txt
+2023-09-15 11:35:48 ===> test_file=pos_test_imgs.txt
+2023-09-15 11:35:48 ===> lambda_epochs=50
+2023-09-15 11:35:48 ===> Uncertainty_Loss=False
+2023-09-15 11:35:48 ===> save_dir=./results
+2023-09-15 11:35:48 ===> out_size=(128, 128, 128)
+2023-09-15 11:35:48 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 11:35:48 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:35:49 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:35:51 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:35:53 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:35:55 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:38:47 ===> ===========>Test begining!===========
+2023-09-15 11:38:47 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 11:38:47 ===> user=anissa
+2023-09-15 11:38:47 ===> experiment=UMIS
+2023-09-15 11:38:47 ===> date=2023-09-15
+2023-09-15 11:38:47 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:38:47 ===> mode=test
+2023-09-15 11:38:47 ===> dataset=autopet
+2023-09-15 11:38:47 ===> crop_H=128
+2023-09-15 11:38:47 ===> crop_W=128
+2023-09-15 11:38:47 ===> crop_D=128
+2023-09-15 11:38:47 ===> num_classes=2
+2023-09-15 11:38:47 ===> input_modality=petct
+2023-09-15 11:38:47 ===> folder=folder0
+2023-09-15 11:38:47 ===> input_C=4
+2023-09-15 11:38:47 ===> input_H=128
+2023-09-15 11:38:47 ===> input_W=128
+2023-09-15 11:38:47 ===> input_D=12
+2023-09-15 11:38:47 ===> output_D=155
+2023-09-15 11:38:47 ===> lr=0.0002
+2023-09-15 11:38:47 ===> weight_decay=1e-05
+2023-09-15 11:38:47 ===> submission=./results
+2023-09-15 11:38:47 ===> seed=1000
+2023-09-15 11:38:47 ===> no_cuda=False
+2023-09-15 11:38:47 ===> batch_size=2
+2023-09-15 11:38:47 ===> start_epoch=199
+2023-09-15 11:38:47 ===> end_epochs=10
+2023-09-15 11:38:47 ===> save_freq=5
+2023-09-15 11:38:47 ===> resume=
+2023-09-15 11:38:47 ===> load=True
+2023-09-15 11:38:47 ===> model_name=U
+2023-09-15 11:38:47 ===> en_time=10
+2023-09-15 11:38:47 ===> OOD_Condition=normal
+2023-09-15 11:38:47 ===> OOD_Level=1
+2023-09-15 11:38:47 ===> use_TTA=False
+2023-09-15 11:38:47 ===> snapshot=True
+2023-09-15 11:38:47 ===> save_format=nii
+2023-09-15 11:38:47 ===> test_date=2023-01-01
+2023-09-15 11:38:47 ===> test_epoch=199
+2023-09-15 11:38:47 ===> n_skip=3
+2023-09-15 11:38:47 ===> vit_name=R50-ViT-B_16
+2023-09-15 11:38:47 ===> vit_patches_size=16
+2023-09-15 11:38:47 ===> train_file=pos_train_imgs.txt
+2023-09-15 11:38:47 ===> val_file=pos_val_imgs.txt
+2023-09-15 11:38:47 ===> test_file=pos_test_imgs.txt
+2023-09-15 11:38:47 ===> lambda_epochs=50
+2023-09-15 11:38:47 ===> Uncertainty_Loss=False
+2023-09-15 11:38:48 ===> save_dir=./results
+2023-09-15 11:38:48 ===> out_size=(128, 128, 128)
+2023-09-15 11:38:48 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 11:38:48 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:38:48 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:38:52 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:38:54 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:38:56 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:39:01 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:40:34 ===> ===========>Test begining!===========
+2023-09-15 11:40:34 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 11:40:34 ===> user=anissa
+2023-09-15 11:40:34 ===> experiment=UMIS
+2023-09-15 11:40:34 ===> date=2023-09-15
+2023-09-15 11:40:34 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:40:34 ===> mode=test
+2023-09-15 11:40:34 ===> dataset=autopet
+2023-09-15 11:40:34 ===> crop_H=128
+2023-09-15 11:40:34 ===> crop_W=128
+2023-09-15 11:40:34 ===> crop_D=128
+2023-09-15 11:40:34 ===> num_classes=2
+2023-09-15 11:40:34 ===> input_modality=petct
+2023-09-15 11:40:34 ===> folder=folder0
+2023-09-15 11:40:34 ===> input_C=4
+2023-09-15 11:40:34 ===> input_H=128
+2023-09-15 11:40:34 ===> input_W=128
+2023-09-15 11:40:34 ===> input_D=12
+2023-09-15 11:40:34 ===> output_D=155
+2023-09-15 11:40:34 ===> lr=0.0002
+2023-09-15 11:40:34 ===> weight_decay=1e-05
+2023-09-15 11:40:34 ===> submission=./results
+2023-09-15 11:40:34 ===> seed=1000
+2023-09-15 11:40:34 ===> no_cuda=False
+2023-09-15 11:40:34 ===> batch_size=2
+2023-09-15 11:40:34 ===> start_epoch=199
+2023-09-15 11:40:34 ===> end_epochs=10
+2023-09-15 11:40:34 ===> save_freq=5
+2023-09-15 11:40:34 ===> resume=
+2023-09-15 11:40:34 ===> load=True
+2023-09-15 11:40:34 ===> model_name=U
+2023-09-15 11:40:34 ===> en_time=10
+2023-09-15 11:40:34 ===> OOD_Condition=normal
+2023-09-15 11:40:34 ===> OOD_Level=1
+2023-09-15 11:40:34 ===> use_TTA=False
+2023-09-15 11:40:34 ===> snapshot=True
+2023-09-15 11:40:34 ===> save_format=nii
+2023-09-15 11:40:34 ===> test_date=2023-01-01
+2023-09-15 11:40:34 ===> test_epoch=199
+2023-09-15 11:40:34 ===> n_skip=3
+2023-09-15 11:40:34 ===> vit_name=R50-ViT-B_16
+2023-09-15 11:40:34 ===> vit_patches_size=16
+2023-09-15 11:40:34 ===> train_file=pos_train_imgs.txt
+2023-09-15 11:40:34 ===> val_file=pos_val_imgs.txt
+2023-09-15 11:40:34 ===> test_file=pos_test_imgs.txt
+2023-09-15 11:40:34 ===> lambda_epochs=50
+2023-09-15 11:40:34 ===> Uncertainty_Loss=False
+2023-09-15 11:40:34 ===> save_dir=./results
+2023-09-15 11:40:34 ===> out_size=(128, 128, 128)
+2023-09-15 11:40:34 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 11:40:34 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:40:35 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:40:37 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:40:39 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:40:41 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:02 ===> ===========>Test begining!===========
+2023-09-15 11:49:02 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 11:49:02 ===> user=anissa
+2023-09-15 11:49:02 ===> experiment=UMIS
+2023-09-15 11:49:02 ===> date=2023-09-15
+2023-09-15 11:49:02 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:49:02 ===> mode=test
+2023-09-15 11:49:02 ===> dataset=autopet
+2023-09-15 11:49:02 ===> crop_H=128
+2023-09-15 11:49:02 ===> crop_W=128
+2023-09-15 11:49:02 ===> crop_D=128
+2023-09-15 11:49:02 ===> num_classes=2
+2023-09-15 11:49:02 ===> input_modality=petct
+2023-09-15 11:49:02 ===> folder=folder0
+2023-09-15 11:49:02 ===> input_C=4
+2023-09-15 11:49:02 ===> input_H=128
+2023-09-15 11:49:02 ===> input_W=128
+2023-09-15 11:49:02 ===> input_D=12
+2023-09-15 11:49:02 ===> output_D=155
+2023-09-15 11:49:02 ===> lr=0.0002
+2023-09-15 11:49:02 ===> weight_decay=1e-05
+2023-09-15 11:49:02 ===> submission=./results
+2023-09-15 11:49:02 ===> seed=1000
+2023-09-15 11:49:02 ===> no_cuda=False
+2023-09-15 11:49:02 ===> batch_size=2
+2023-09-15 11:49:02 ===> start_epoch=199
+2023-09-15 11:49:02 ===> end_epochs=10
+2023-09-15 11:49:02 ===> save_freq=5
+2023-09-15 11:49:02 ===> resume=
+2023-09-15 11:49:02 ===> load=True
+2023-09-15 11:49:02 ===> model_name=U
+2023-09-15 11:49:02 ===> en_time=10
+2023-09-15 11:49:02 ===> OOD_Condition=normal
+2023-09-15 11:49:02 ===> OOD_Level=1
+2023-09-15 11:49:02 ===> use_TTA=False
+2023-09-15 11:49:02 ===> snapshot=True
+2023-09-15 11:49:02 ===> save_format=nii
+2023-09-15 11:49:02 ===> test_date=2023-01-01
+2023-09-15 11:49:02 ===> test_epoch=199
+2023-09-15 11:49:02 ===> n_skip=3
+2023-09-15 11:49:02 ===> vit_name=R50-ViT-B_16
+2023-09-15 11:49:02 ===> vit_patches_size=16
+2023-09-15 11:49:02 ===> train_file=pos_train_imgs.txt
+2023-09-15 11:49:02 ===> val_file=pos_val_imgs.txt
+2023-09-15 11:49:02 ===> test_file=pos_test_imgs.txt
+2023-09-15 11:49:02 ===> lambda_epochs=50
+2023-09-15 11:49:02 ===> Uncertainty_Loss=False
+2023-09-15 11:49:02 ===> save_dir=./results
+2023-09-15 11:49:02 ===> out_size=(128, 128, 128)
+2023-09-15 11:49:02 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 11:49:02 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 11:49:03 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:49:08 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:49:11 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:16 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:19 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:21 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:28 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:31 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:34 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:37 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:40 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:45 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:50 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:49:53 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:49:56 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:50:01 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:04 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:07 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:09 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:50:12 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:15 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:50:20 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:22 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:25 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:30 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:35 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:37 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:40 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:45 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:50:48 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:51 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:53 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:56 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:50:59 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:02 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:04 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:07 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:13 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:15 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:20 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:23 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:29 ===> Single sample test time consumption 0.11 seconds!
+2023-09-15 11:51:31 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:51:36 ===> Single sample test time consumption 0.10 seconds!
+2023-09-15 11:59:17 ===> re-training!!!
+2023-09-15 12:00:44 ===> ===========>Test begining!===========
+2023-09-15 12:00:44 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 12:00:44 ===> user=anissa
+2023-09-15 12:00:44 ===> experiment=U192_valfix2
+2023-09-15 12:00:44 ===> date=2023-09-15
+2023-09-15 12:00:44 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 12:00:44 ===> mode=train
+2023-09-15 12:00:44 ===> dataset=autopet2
+2023-09-15 12:00:44 ===> crop_H=192
+2023-09-15 12:00:44 ===> crop_W=192
+2023-09-15 12:00:44 ===> crop_D=192
+2023-09-15 12:00:44 ===> num_classes=2
+2023-09-15 12:00:44 ===> input_modality=petct
+2023-09-15 12:00:44 ===> folder=folder0
+2023-09-15 12:00:44 ===> input_C=2
+2023-09-15 12:00:44 ===> input_H=192
+2023-09-15 12:00:44 ===> input_W=192
+2023-09-15 12:00:44 ===> input_D=192
+2023-09-15 12:00:44 ===> output_D=192
+2023-09-15 12:00:44 ===> lr=0.0002
+2023-09-15 12:00:44 ===> weight_decay=1e-05
+2023-09-15 12:00:44 ===> submission=./results
+2023-09-15 12:00:44 ===> seed=1000
+2023-09-15 12:00:44 ===> no_cuda=False
+2023-09-15 12:00:44 ===> batch_size=2
+2023-09-15 12:00:44 ===> start_epoch=0
+2023-09-15 12:00:44 ===> end_epochs=10
+2023-09-15 12:00:44 ===> save_freq=5
+2023-09-15 12:00:44 ===> resume=
+2023-09-15 12:00:44 ===> load=True
+2023-09-15 12:00:44 ===> model_name=U
+2023-09-15 12:00:44 ===> en_time=10
+2023-09-15 12:00:44 ===> OOD_Condition=normal
+2023-09-15 12:00:44 ===> OOD_Level=1
+2023-09-15 12:00:44 ===> use_TTA=False
+2023-09-15 12:00:44 ===> snapshot=True
+2023-09-15 12:00:44 ===> save_format=nii
+2023-09-15 12:00:44 ===> test_date=2023-01-01
+2023-09-15 12:00:44 ===> test_epoch=199
+2023-09-15 12:00:44 ===> n_skip=3
+2023-09-15 12:00:44 ===> vit_name=R50-ViT-B_16
+2023-09-15 12:00:44 ===> vit_patches_size=16
+2023-09-15 12:00:44 ===> train_file=pos_train_imgs.txt
+2023-09-15 12:00:44 ===> val_file=pos_val_imgs.txt
+2023-09-15 12:00:44 ===> test_file=pos_test_imgs.txt
+2023-09-15 12:00:44 ===> lambda_epochs=50
+2023-09-15 12:00:44 ===> Uncertainty_Loss=False
+2023-09-15 12:00:44 ===> save_dir=./results
+2023-09-15 12:00:44 ===> out_size=(192, 192, 192)
+2023-09-15 12:00:44 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 12:00:44 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 12:01:18 ===> ===========>Test begining!===========
+2023-09-15 12:01:18 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-15 12:01:18 ===> user=anissa
+2023-09-15 12:01:18 ===> experiment=U192_valfix2
+2023-09-15 12:01:18 ===> date=2023-09-15
+2023-09-15 12:01:18 ===> description=Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!
+2023-09-15 12:01:18 ===> mode=test
+2023-09-15 12:01:18 ===> dataset=autopet2
+2023-09-15 12:01:18 ===> crop_H=192
+2023-09-15 12:01:18 ===> crop_W=192
+2023-09-15 12:01:18 ===> crop_D=192
+2023-09-15 12:01:18 ===> num_classes=2
+2023-09-15 12:01:18 ===> input_modality=petct
+2023-09-15 12:01:18 ===> folder=folder0
+2023-09-15 12:01:18 ===> input_C=2
+2023-09-15 12:01:18 ===> input_H=192
+2023-09-15 12:01:18 ===> input_W=192
+2023-09-15 12:01:18 ===> input_D=192
+2023-09-15 12:01:18 ===> output_D=192
+2023-09-15 12:01:18 ===> lr=0.0002
+2023-09-15 12:01:18 ===> weight_decay=1e-05
+2023-09-15 12:01:18 ===> submission=./results
+2023-09-15 12:01:18 ===> seed=1000
+2023-09-15 12:01:18 ===> no_cuda=False
+2023-09-15 12:01:18 ===> batch_size=2
+2023-09-15 12:01:18 ===> start_epoch=108
+2023-09-15 12:01:18 ===> end_epochs=10
+2023-09-15 12:01:18 ===> save_freq=5
+2023-09-15 12:01:18 ===> resume=
+2023-09-15 12:01:18 ===> load=True
+2023-09-15 12:01:18 ===> model_name=U
+2023-09-15 12:01:18 ===> en_time=10
+2023-09-15 12:01:18 ===> OOD_Condition=normal
+2023-09-15 12:01:18 ===> OOD_Level=1
+2023-09-15 12:01:18 ===> use_TTA=False
+2023-09-15 12:01:18 ===> snapshot=True
+2023-09-15 12:01:18 ===> save_format=nii
+2023-09-15 12:01:18 ===> test_date=2023-01-01
+2023-09-15 12:01:18 ===> test_epoch=199
+2023-09-15 12:01:18 ===> n_skip=3
+2023-09-15 12:01:18 ===> vit_name=R50-ViT-B_16
+2023-09-15 12:01:18 ===> vit_patches_size=16
+2023-09-15 12:01:18 ===> train_file=pos_train_imgs.txt
+2023-09-15 12:01:18 ===> val_file=pos_val_imgs.txt
+2023-09-15 12:01:18 ===> test_file=pos_test_imgs.txt
+2023-09-15 12:01:18 ===> lambda_epochs=50
+2023-09-15 12:01:18 ===> Uncertainty_Loss=False
+2023-09-15 12:01:18 ===> save_dir=./results
+2023-09-15 12:01:18 ===> out_size=(192, 192, 192)
+2023-09-15 12:01:18 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-15 12:01:18 ===> Trustworthy medical image segmentation by coco, training on trai_imgsn.txt!

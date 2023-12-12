@@ -1,0 +1,88 @@
+2023-09-14 18:37:04 ===> re-training!!!
+2023-09-14 18:37:04 ===> Samples for train = 358
+2023-09-14 18:37:04 ===> Samples for valid = 47
+2023-09-14 18:37:04 ===> Samples for test = 46
+2023-09-14 18:37:04 ===> ===========>Test begining!===========
+2023-09-14 18:37:04 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-14 18:37:04 ===> user=anissa
+2023-09-14 18:37:04 ===> experiment=testU_pos_128_test
+2023-09-14 18:37:04 ===> date=2023-09-14
+2023-09-14 18:37:04 ===> description=Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-14 18:37:04 ===> start_epoch=1
+2023-09-14 18:37:04 ===> end_epochs=200
+2023-09-14 18:37:04 ===> submission=./results
+2023-09-14 18:37:04 ===> lambda_epochs=50
+2023-09-14 18:37:04 ===> save_freq=5
+2023-09-14 18:37:04 ===> lr=0.0002
+2023-09-14 18:37:04 ===> savepath=./results/plot/output
+2023-09-14 18:37:04 ===> save_dir=./results
+2023-09-14 18:37:04 ===> mode=test
+2023-09-14 18:37:04 ===> dataset=autopet
+2023-09-14 18:37:04 ===> folder=folder0
+2023-09-14 18:37:04 ===> input_H=300
+2023-09-14 18:37:04 ===> input_W=400
+2023-09-14 18:37:04 ===> input_D=400
+2023-09-14 18:37:04 ===> crop_H=128
+2023-09-14 18:37:04 ===> crop_W=128
+2023-09-14 18:37:04 ===> crop_D=128
+2023-09-14 18:37:04 ===> output_D=155
+2023-09-14 18:37:04 ===> batch_size=2
+2023-09-14 18:37:04 ===> OOD_Condition=normal
+2023-09-14 18:37:04 ===> OOD_Level=0
+2023-09-14 18:37:04 ===> snapshot=True
+2023-09-14 18:37:04 ===> Uncertainty_Loss=False
+2023-09-14 18:37:04 ===> input_modality=petct
+2023-09-14 18:37:04 ===> model_name=U
+2023-09-14 18:37:04 ===> test_epoch=199
+2023-09-14 18:37:04 ===> train_file=pos_train_imgs.txt
+2023-09-14 18:37:04 ===> val_file=pos_val_imgs.txt
+2023-09-14 18:37:04 ===> test_file=pos_test_imgs.txt
+2023-09-14 18:37:04 ===> num_classes=2
+2023-09-14 18:37:04 ===> out_size=(128, 128, 128)
+2023-09-14 18:37:04 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-14 18:37:04 ===> Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-14 18:37:12 ===> Single sample test time consumption 6.75 seconds!
+2023-09-14 22:53:03 ===> re-training!!!
+2023-09-14 22:53:03 ===> Samples for train = 358
+2023-09-14 22:53:03 ===> Samples for valid = 47
+2023-09-14 22:53:03 ===> Samples for test = 46
+2023-09-14 22:53:03 ===> ===========>Test begining!===========
+2023-09-14 22:53:03 ===> --------------------------------------This is all argsurations----------------------------------
+2023-09-14 22:53:03 ===> user=anissa
+2023-09-14 22:53:03 ===> experiment=testU_pos_128_test
+2023-09-14 22:53:03 ===> date=2023-09-14
+2023-09-14 22:53:03 ===> description=Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-14 22:53:03 ===> start_epoch=1
+2023-09-14 22:53:03 ===> end_epochs=200
+2023-09-14 22:53:03 ===> submission=./results
+2023-09-14 22:53:03 ===> lambda_epochs=50
+2023-09-14 22:53:03 ===> save_freq=5
+2023-09-14 22:53:03 ===> lr=0.0002
+2023-09-14 22:53:03 ===> savepath=./results/plot/output
+2023-09-14 22:53:03 ===> save_dir=./results
+2023-09-14 22:53:03 ===> mode=test
+2023-09-14 22:53:03 ===> dataset=autopet
+2023-09-14 22:53:03 ===> folder=folder0
+2023-09-14 22:53:03 ===> input_H=300
+2023-09-14 22:53:03 ===> input_W=400
+2023-09-14 22:53:03 ===> input_D=400
+2023-09-14 22:53:03 ===> crop_H=128
+2023-09-14 22:53:03 ===> crop_W=128
+2023-09-14 22:53:03 ===> crop_D=128
+2023-09-14 22:53:03 ===> output_D=155
+2023-09-14 22:53:03 ===> batch_size=2
+2023-09-14 22:53:03 ===> OOD_Condition=normal
+2023-09-14 22:53:03 ===> OOD_Level=0
+2023-09-14 22:53:03 ===> snapshot=True
+2023-09-14 22:53:03 ===> Uncertainty_Loss=False
+2023-09-14 22:53:03 ===> input_modality=petct
+2023-09-14 22:53:03 ===> model_name=U
+2023-09-14 22:53:03 ===> test_epoch=199
+2023-09-14 22:53:03 ===> train_file=pos_train_imgs.txt
+2023-09-14 22:53:03 ===> val_file=pos_val_imgs.txt
+2023-09-14 22:53:03 ===> test_file=pos_test_imgs.txt
+2023-09-14 22:53:03 ===> num_classes=2
+2023-09-14 22:53:03 ===> out_size=(128, 128, 128)
+2023-09-14 22:53:03 ===> ----------------------------------------This is a halving line----------------------------------
+2023-09-14 22:53:03 ===> Trustworthy medical image segmentation by coco,training on train.txt!
+2023-09-14 22:53:09 ===> Single sample test time consumption 5.89 seconds!
