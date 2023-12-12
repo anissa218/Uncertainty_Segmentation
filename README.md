@@ -1,5 +1,5 @@
 # EvidenceCap: Trusworthy medical image segmentation
-Forked from https://github.com/Cocofeat/UMIS
+Adapted from https://github.com/Cocofeat/UMIS
 
 
 ## Framework Overview
