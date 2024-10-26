@@ -4,7 +4,8 @@ Adapted from https://github.com/Cocofeat/UMIS
 ## Motivation
 Positron Emission Tomography / Computed Tomography (PET/CT) imaging is a vital element of the diagnostic process and clinical management for a wide range of solid tumours
 However, precise and consistent lesion segmentation remains challenging, as manual segmentation is time-consuming and subject to intra- and inter-observer variability
-Aim: to build an automated segmentation model which is not only accurate, but also robust and trustworthy, while avoiding significant increases in computational cost
+
+**Aim:** to build an automated segmentation model which is not only accurate, but also robust and trustworthy, while avoiding significant increases in computational cost
 
 ## Framework Overview
 EvidenceCap is a trustworthy medical image segmentation framework based on evidential deep learning, which provides robust segmentation performance and reliable uncertainty quantification for diagnostic support. 
