@@ -1,4 +1,4 @@
-# EvidenceCap: Trusworthy medical image segmentation
+# Trusworthy 3D Multimodal PET/CT Lesion Segmentation
 Adapted from https://github.com/Cocofeat/UMIS
 
 ## Motivation
